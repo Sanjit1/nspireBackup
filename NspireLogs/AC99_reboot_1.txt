@@ -1,0 +1,1112 @@
+********************************************************************************
+                                   REBOOT LOG                                   
+00:00:13.070 70-01-01 0000000307:
+Cause for Reboot: User Initiated
+********************************************************************************
+eThread(): Enter->Off. State->Which Off.
+12:13:22.390,19-10-31,0018293135,sm_power,off(): Off.
+12:13:22.390,19-10-31,0018293135,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:13:22.390,19-10-31,0018293135,    NOTE,setPowerProvider(): USB(0): off
+12:13:22.420,19-10-31,0018293138,    NOTE,BattInfo:12:13:21 19-10-31    Running         0000mV   3894mV   3894mV   10%
+12:13:22.490,19-10-31,0018293145,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=300020
+12:13:22.490,19-10-31,0018293145,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:13:22.490,19-10-31,0018293145, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:13:22.490,19-10-31,0018293145, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:13:22.540,19-10-31,0018293150,sm_power,hw_power_off(): WLANHAL Entered
+12:13:22.540,19-10-31,0018293150,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:13:22.540,19-10-31,0018293150,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:13:22.540 19-10-31 0018293150:******Log file closed*******
+12:15:48.640,19-10-31,0018293160,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupGPIOvbus.
+12:15:48.030,19-10-31,0018293199,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupGPIOvbus.
+12:15:48.030,19-10-31,0018293199,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+12:15:48.030,19-10-31,0018293199,sm_power,sm_power:statemachineThread(): Enter->USB Unplug. State->Off.
+12:15:48.030,19-10-31,0018293199,sm_power,sm_power:statemachineThread(): Exit->USB Unplug. State->Off.
+12:15:48.030,19-10-31,0018293199,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+12:15:48.030,19-10-31,0018293199,sm_power,wakeup(): ON.
+12:15:48.390,19-10-31,0018293235,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_ENABLE(10) config: 0 otgcsr=3e2e20
+12:15:48.390,19-10-31,0018293235,sm_power,Power ON! Start WLAN
+12:15:48.390,19-10-31,0018293235,    NOTE,setUSBMode(): USB Mode: USB UNKNOWN
+12:15:48.390,19-10-31,0018293235, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Plugged In. State->Check Source.
+12:15:48.390,19-10-31,0018293235, sm_chrg,setPowerProvider(): Charger(1): on
+12:15:48.390,19-10-31,0018293235, sm_chrg,autodim_power_callback: Stop dim Timer. flags(0x4)
+12:15:48.390,19-10-31,0018293235, sm_chrg,setUSBMode(): USB Mode: USB UNKNOWN
+12:15:48.390,19-10-31,0018293235, sm_chrg,setChargeMode(): Charge Mode: CHARGE_UNKNOWN
+12:15:48.390,19-10-31,0018293235, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Plugged In. State->USB.
+12:15:48.400,19-10-31,0018293236,sm_power,TI_WLANMOD GPIO is disconnected 
+12:15:48.400,19-10-31,0018293236,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:15:48.420,19-10-31,0018293238,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+12:15:48.420,19-10-31,0018293238,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+12:15:48.420,19-10-31,0018293238,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:15:48.420,19-10-31,0018293238,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Wakeup.
+12:15:48.420,19-10-31,0018293238,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:15:48.420,19-10-31,0018293238,sm_power,sm_power:statemachineThread(): Enter->Change Mode. State->Wakeup.
+12:15:48.420,19-10-31,0018293238,sm_power,sm_power:statemachineThread(): Exit->Change Mode. State->Wakeup.
+12:15:48.420,19-10-31,0018293238,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+12:15:48.420,19-10-31,0018293238,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+12:15:48.420,19-10-31,0018293238,sm_power,getOffMode(): Power
+12:15:48.420,19-10-31,0018293238,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+12:15:48.420,19-10-31,0018293238,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:15:48.440,19-10-31,0018293240,    NOTE,BattInfo:12:15:47 19-10-31    Unknown         0000mV   3687mV   3687mV   10%
+12:15:49.560,19-10-31,0018293252,  jUSB01,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_SUSPEND(2) config: 0 otgcsr=3e2e20
+12:15:49.560,19-10-31,0018293252,    NOTE,setPowerProvider(): USB(0): off
+12:15:49.560,19-10-31,0018293252,sm_power,sm_power:statemachineThread(): Enter->USB Unplug. State->Active.
+12:15:49.560,19-10-31,0018293252,sm_power,sm_power:statemachineThread(): Exit->USB Unplug. State->Active.
+12:15:54.330,19-10-31,0018293729,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+12:15:54.330,19-10-31,0018293729,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+12:15:54.340,19-10-31,0018293730,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:15:54.400,19-10-31,0018293736,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+12:15:54.410,19-10-31,0018293737, sm_chrg,sm_chrg:statemachineThread(): Enter->Timeout. State->USB.
+12:15:54.410,19-10-31,0018293737, sm_chrg,setChargeMode(): Charge Mode: CHARGE_USB_WALL
+12:15:54.410,19-10-31,0018293737, sm_chrg,setUSBMode(): USB Mode: USB WALL
+12:15:54.410,19-10-31,0018293737, sm_chrg,setPowerProvider(): Charger(1): on
+12:15:54.410,19-10-31,0018293737, sm_chrg,autodim_power_callback: Stop dim Timer. flags(0x4)
+12:15:54.410,19-10-31,0018293737, sm_chrg,sm_chrg:statemachineThread(): Exit->Timeout. State->USB Wall.
+12:15:54.410,19-10-31,0018293737,sm_power,sm_power:statemachineThread(): Enter->Change Mode. State->User Off.
+12:15:54.410,19-10-31,0018293737,sm_power,sm_power:statemachineThread(): Exit->Change Mode. State->User Off.
+12:15:54.440,19-10-31,0018293740,    NOTE,BattInfo:12:15:53 19-10-31    Charge Wall     4771mV   3714mV   3894mV   10%
+12:15:55.450,19-10-31,0018293841,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+12:15:56.360,19-10-31,0018293932,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+12:15:56.360,19-10-31,0018293932,sm_power,getOffMode(): Power
+12:15:56.360,19-10-31,0018293932,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+12:15:56.360,19-10-31,0018293932,sm_power,sm_power:statemachineThread(): Enter->DO USB. State->Which Off.
+12:15:56.360,19-10-31,0018293932,sm_power,TI_PM_DIM_disable: Stop dim Timer. 
+12:15:56.360,19-10-31,0018293932,sm_power,TI_PM_APD_allow(): Block APD is set to 1.
+12:15:56.470,19-10-31,0018293943,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:15:56.470,19-10-31,0018293943,sm_power,TI_PM_Display_Off(): On key released.
+12:15:56.470,19-10-31,0018293943,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:15:56.470,19-10-31,0018293943,sm_power,hw_power_displayoff(): Entered
+12:15:56.470,19-10-31,0018293943,sm_power,sm_power:statemachineThread(): Exit->DO USB. State->Display Off USB.
+12:16:00.440,19-10-31,0018294340,    NOTE,BattInfo:12:15:59 19-10-31    Charge Wall     4395mV   3871mV   3894mV   25%
+12:16:05.440,19-10-31,0018294840,    NOTE,BattInfo:12:16:04 19-10-31    Charge Wall     4395mV   3876mV   3894mV   50%
+12:18:48.480,19-10-31,0018310744,  jUSB01,setPowerProvider(): USB(0): off
+12:18:48.480,19-10-31,0018310744,sm_power,sm_power:statemachineThread(): Enter->USB Unplug. State->Display Off USB.
+12:18:48.480,19-10-31,0018310744,sm_power,TI_PM_APD_allow(): Block APD is set to 0.
+12:18:48.480,19-10-31,0018310744,sm_power,sm_power:statemachineThread(): Exit->USB Unplug. State->Change Mode.
+12:18:48.480,19-10-31,0018310744,sm_power,sm_power:statemachineThread(): Enter->Change Mode. State->Change Mode.
+12:18:48.480,19-10-31,0018310744,sm_power,getOffMode(): Power
+12:18:48.480,19-10-31,0018310744,sm_power,sm_power:statemachineThread(): Exit->Change Mode. State->Which Off.
+12:18:48.480,19-10-31,0018310744,sm_power,sm_power:statemachineThread(): Enter->DO USB. State->Which Off.
+12:18:48.480,19-10-31,0018310744,sm_power,TI_PM_DIM_disable: Stop dim Timer. 
+12:18:48.480,19-10-31,0018310744,sm_power,TI_PM_APD_allow(): Block APD is set to 1.
+12:18:48.480,19-10-31,0018310744,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:18:48.480,19-10-31,0018310744,sm_power,TI_PM_Display_Off(): On key released.
+12:18:48.480,19-10-31,0018310744,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:18:48.480,19-10-31,0018310744,sm_power,hw_power_displayoff(): Entered
+12:18:48.480,19-10-31,0018310744,sm_power,sm_power:statemachineThread(): Exit->DO USB. State->Display Off USB.
+12:18:48.480,19-10-31,0018310744,  jUSB01,autodim_power_callback: Restart dim Timer. flags(0x80000001)
+12:18:48.480,19-10-31,0018310744,  jUSB01,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DISABLE(9) config: 0 otgcsr=302e20
+12:18:48.490,19-10-31,0018310745,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:18:48.490,19-10-31,0018310745, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->USB Wall.
+12:18:48.490,19-10-31,0018310745, sm_chrg,setPowerProvider(): Charger(0): off
+12:18:48.490,19-10-31,0018310745, sm_chrg,autodim_power_callback: Restart dim Timer. flags(0x80000004)
+12:18:48.490,19-10-31,0018310745, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->USB Unplugged.
+12:18:48.490,19-10-31,0018310745, sm_chrg,sm_chrg:statemachineThread(): Enter->Stand Alone. State->USB Unplugged.
+12:18:48.490,19-10-31,0018310745, sm_chrg,sm_chrg:statemachineThread(): Exit->Stand Alone. State->Initial Check.
+12:18:48.490,19-10-31,0018310745, sm_chrg,sm_chrg:statemachineThread(): Enter->Check Source. State->Initial Check.
+12:18:48.490,19-10-31,0018310745, sm_chrg,setChargeMode(): Charge Mode: CHARGE_OFF
+12:18:48.490,19-10-31,0018310745, sm_chrg,checkSource(): Wait for Event...
+12:18:48.490,19-10-31,0018310745, sm_chrg,sm_chrg:statemachineThread(): Exit->Check Source. State->Check Source.
+12:18:48.490,19-10-31,0018310745,sm_power,sm_power:statemachineThread(): Enter->USB Unplug. State->Display Off USB.
+12:18:48.490,19-10-31,0018310745,sm_power,TI_PM_APD_allow(): Block APD is set to 0.
+12:18:48.490,19-10-31,0018310745,sm_power,sm_power:statemachineThread(): Exit->USB Unplug. State->Change Mode.
+12:18:48.490,19-10-31,0018310745,sm_power,sm_power:statemachineThread(): Enter->Change Mode. State->Change Mode.
+12:18:48.490,19-10-31,0018310745,sm_power,getOffMode(): Default
+12:18:48.490,19-10-31,0018310745,sm_power,sm_power:statemachineThread(): Exit->Change Mode. State->Which Off.
+12:18:48.490,19-10-31,0018310745,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+12:18:48.490,19-10-31,0018310745,sm_power,off(): Off.
+12:18:48.490,19-10-31,0018310745,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:18:48.490,19-10-31,0018310745,    NOTE,setPowerProvider(): USB(0): off
+12:18:48.590,19-10-31,0018310755,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=300020
+12:18:48.590,19-10-31,0018310755,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:18:48.590,19-10-31,0018310755, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:18:48.590,19-10-31,0018310755, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:18:48.640,19-10-31,0018310760,sm_power,hw_power_off(): WLANHAL Entered
+12:18:48.640,19-10-31,0018310760,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:18:48.640,19-10-31,0018310760,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:18:48.640 19-10-31 0018310760:******Log file closed*******
+12:18:50.740,19-10-31,0018310770,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupGPIOvbus.
+12:18:50.130,19-10-31,0018310809,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupGPIOvbus.
+12:18:50.130,19-10-31,0018310809,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+12:18:50.130,19-10-31,0018310809,sm_power,sm_power:statemachineThread(): Enter->USB Unplug. State->Off.
+12:18:50.130,19-10-31,0018310809,sm_power,sm_power:statemachineThread(): Exit->USB Unplug. State->Off.
+12:18:50.130,19-10-31,0018310809,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+12:18:50.130,19-10-31,0018310809,sm_power,wakeup(): ON.
+12:18:50.440,19-10-31,0018310840,    NOTE,BattInfo:12:18:49 19-10-31    Running         0000mV   3718mV   3718mV   50%
+12:18:50.490,19-10-31,0018310845,sm_power,Power ON! Start WLAN
+12:18:50.500,19-10-31,0018310846,sm_power,TI_WLANMOD GPIO is disconnected 
+12:18:50.500,19-10-31,0018310846,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:18:51.520,19-10-31,0018310848,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+12:18:51.520,19-10-31,0018310848,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+12:18:51.520,19-10-31,0018310848,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:18:51.520,19-10-31,0018310848,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Wakeup.
+12:18:51.520,19-10-31,0018310848,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:18:51.520,19-10-31,0018310848,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+12:18:51.520,19-10-31,0018310848,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+12:18:51.520,19-10-31,0018310848,sm_power,getOffMode(): Default
+12:18:51.520,19-10-31,0018310848,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+12:18:51.520,19-10-31,0018310848,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:19:03.460,19-10-31,0018312042,    NOTE,BattInfo:12:19:02 19-10-31    Running         0000mV   3692mV   3692mV   25%
+12:19:14.090,19-10-31,0018313105,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+12:19:14.090,19-10-31,0018313105,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+12:19:14.100,19-10-31,0018313106,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:19:14.180,19-10-31,0018313114,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+12:19:15.250,19-10-31,0018313221,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+12:19:16.160,19-10-31,0018313312,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+12:19:16.160,19-10-31,0018313312,sm_power,getOffMode(): Default
+12:19:16.160,19-10-31,0018313312,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+12:19:16.160,19-10-31,0018313312,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+12:19:16.160,19-10-31,0018313312,sm_power,off(): Off.
+12:19:16.160,19-10-31,0018313312,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:19:16.260,19-10-31,0018313322,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+12:19:16.260,19-10-31,0018313322,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:19:16.260,19-10-31,0018313322, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:19:16.260,19-10-31,0018313322, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:19:16.310,19-10-31,0018313327,sm_power,hw_power_off(): WLANHAL Entered
+12:19:16.310,19-10-31,0018313327,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:19:16.310,19-10-31,0018313327,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:19:16.310 19-10-31 0018313327:******Log file closed*******
+12:19:17.410,19-10-31,0018313337,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:28:51.800,19-10-31,0018313376,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:28:51.800,19-10-31,0018313376,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+13:28:51.800,19-10-31,0018313376,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+13:28:51.800,19-10-31,0018313376,sm_power,wakeup(): ON.
+13:28:52.160,19-10-31,0018313412,sm_power,Power ON! Start WLAN
+13:28:52.170,19-10-31,0018313413,sm_power,TI_WLANMOD GPIO is disconnected 
+13:28:52.170,19-10-31,0018313413,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:28:52.190,19-10-31,0018313415,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+13:28:52.190,19-10-31,0018313415,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+13:28:52.190,19-10-31,0018313415,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:28:52.190,19-10-31,0018313415,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+13:28:52.190,19-10-31,0018313415,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+13:28:52.190,19-10-31,0018313415,sm_power,getOffMode(): Default
+13:28:52.190,19-10-31,0018313415,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+13:28:52.190,19-10-31,0018313415,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:31:21.480,19-10-31,0018327944,    NOTE,BattInfo:13:31:20 19-10-31    Running         0000mV   3649mV   3649mV   10%
+13:35:03.960,19-10-31,0018349692,SYSTEM H,dim_screen: Dim screen.
+13:37:37.960,19-10-31,0018364692,SYSTEM H,TI_PM_DIM_disable: Stop dim Timer. 
+13:37:37.960,19-10-31,0018364692,sm_power,sm_power:statemachineThread(): Enter->APD. State->Active.
+13:37:37.960,19-10-31,0018364692,sm_power,TI_ALARM_add(): Alarm added for 10:00 minute(s). Mode = Save Document.
+13:37:37.960,19-10-31,0018364692,sm_power,sm_power:statemachineThread(): Exit->APD. State->APD.
+13:37:37.960,19-10-31,0018364692,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:37:37.960,19-10-31,0018364692,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->APD.
+13:37:37.960,19-10-31,0018364692,sm_power,getOffMode(): Default
+13:37:37.960,19-10-31,0018364692,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+13:37:37.960,19-10-31,0018364692,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+13:37:37.960,19-10-31,0018364692,sm_power,off(): Off.
+13:37:37.960,19-10-31,0018364692,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 10:00 minute(s). Mode = Save Document.
+13:37:38.060,19-10-31,0018364702,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+13:37:38.060,19-10-31,0018364702,    NOTE,setUSBMode(): USB Mode: USB NONE
+13:37:38.060,19-10-31,0018364702, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+13:37:38.060,19-10-31,0018364702, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+13:37:38.110,19-10-31,0018364707,sm_power,hw_power_off(): WLANHAL Entered
+13:37:38.110,19-10-31,0018364707,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+13:37:38.110,19-10-31,0018364707,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:37:38.110 19-10-31 0018364707:******Log file closed*******
+13:47:38.210,19-10-31,0018364717,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupRTC.
+13:47:38.600,19-10-31,0018364756,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupRTC.
+13:47:38.600,19-10-31,0018364756,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+13:47:38.600,19-10-31,0018364756,sm_power,sm_power:statemachineThread(): Enter->Document Save. State->Off.
+13:47:38.600,19-10-31,0018364756,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+13:47:38.600,19-10-31,0018364756,sm_power,sm_power:statemachineThread(): Exit->Document Save. State->On for Save.
+13:47:38.610,19-10-31,0018364757,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:47:38.670,19-10-31,0018364763,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+13:47:40.720,19-10-31,0018364868,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+13:47:40.630,19-10-31,0018364959,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->On for Save.
+13:47:40.630,19-10-31,0018364959,sm_power,getOffMode(): Default
+13:47:40.630,19-10-31,0018364959,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+13:47:40.630,19-10-31,0018364959,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+13:47:40.630,19-10-31,0018364959,sm_power,off(): Off.
+13:47:40.630,19-10-31,0018364959,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1430:00 minute(s). Mode = Battery Check.
+13:47:41.730,19-10-31,0018364969,sm_power,hw_power_off(): WLANHAL Entered
+13:47:41.730,19-10-31,0018364969,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+13:47:41.730,19-10-31,0018364969,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+14:11:03.730,19-10-31,0018364969,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+14:11:03.120,19-10-31,0018365008,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+14:11:03.120,19-10-31,0018365008,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+14:11:03.120,19-10-31,0018365008,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+14:11:03.120,19-10-31,0018365008,sm_power,wakeup(): ON.
+14:11:04.480,19-10-31,0018365044,sm_power,Power ON! Start WLAN
+14:11:04.490,19-10-31,0018365045,sm_power,TI_WLANMOD GPIO is disconnected 
+14:11:04.490,19-10-31,0018365045,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+14:11:04.520,19-10-31,0018365048,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+14:11:04.520,19-10-31,0018365048,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+14:11:04.520,19-10-31,0018365048,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+14:11:04.520,19-10-31,0018365048,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+14:11:04.520,19-10-31,0018365048,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+14:11:04.520,19-10-31,0018365048,sm_power,getOffMode(): Default
+14:11:04.520,19-10-31,0018365048,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+14:11:04.520,19-10-31,0018365048,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+14:12:30.680,19-10-31,0018373464,SYSTEM H,dim_screen: Dim screen.
+14:12:55.480,19-10-31,0018375944,KPT_TASK,dim_screen: Screen on. Dim time = 30
+14:13:56.320,19-10-31,0018381828,SYSTEM H,dim_screen: Dim screen.
+14:16:30.320,19-10-31,0018396828,SYSTEM H,TI_PM_DIM_disable: Stop dim Timer. 
+14:16:30.320,19-10-31,0018396828,sm_power,sm_power:statemachineThread(): Enter->APD. State->Active.
+14:16:30.320,19-10-31,0018396828,sm_power,TI_ALARM_add(): Alarm added for 10:00 minute(s). Mode = Save Document.
+14:16:30.320,19-10-31,0018396828,sm_power,sm_power:statemachineThread(): Exit->APD. State->APD.
+14:16:30.320,19-10-31,0018396828,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+14:16:30.320,19-10-31,0018396828,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->APD.
+14:16:30.320,19-10-31,0018396828,sm_power,getOffMode(): Default
+14:16:30.320,19-10-31,0018396828,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+14:16:30.320,19-10-31,0018396828,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+14:16:30.320,19-10-31,0018396828,sm_power,off(): Off.
+14:16:30.320,19-10-31,0018396828,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 10:00 minute(s). Mode = Save Document.
+14:16:30.420,19-10-31,0018396838,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+14:16:30.420,19-10-31,0018396838,    NOTE,setUSBMode(): USB Mode: USB NONE
+14:16:30.420,19-10-31,0018396838, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+14:16:30.420,19-10-31,0018396838, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+14:16:30.470,19-10-31,0018396843,sm_power,hw_power_off(): WLANHAL Entered
+14:16:30.470,19-10-31,0018396843,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+14:16:30.470,19-10-31,0018396843,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+14:16:30.470 19-10-31 0018396843:******Log file closed*******
+14:16:30.570,19-10-31,0018396853,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupRTC.
+14:16:29.960,19-10-31,0018396892,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupRTC.
+14:16:29.960,19-10-31,0018396892,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+14:16:29.960,19-10-31,0018396892,sm_power,sm_power:statemachineThread(): Enter->Document Save. State->Off.
+14:16:29.960,19-10-31,0018396892,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+14:16:29.960,19-10-31,0018396892,sm_power,sm_power:statemachineThread(): Exit->Document Save. State->On for Save.
+14:16:29.970,19-10-31,0018396893,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+14:16:30.050,19-10-31,0018396901,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+14:26:32.120,19-10-31,0018397008,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+14:26:33.030,19-10-31,0018397099,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->On for Save.
+14:26:33.030,19-10-31,0018397099,sm_power,getOffMode(): Default
+14:26:33.030,19-10-31,0018397099,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+14:26:33.030,19-10-31,0018397099,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+14:26:33.030,19-10-31,0018397099,sm_power,off(): Off.
+14:26:33.030,19-10-31,0018397099,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1430:00 minute(s). Mode = Battery Check.
+14:26:33.130,19-10-31,0018397109,sm_power,hw_power_off(): WLANHAL Entered
+14:26:33.130,19-10-31,0018397109,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+14:26:33.130,19-10-31,0018397109,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+09:29:00.130,19-11-01,0018397109,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+09:29:00.520,19-11-01,0018397148,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+09:29:00.520,19-11-01,0018397148,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+09:29:00.520,19-11-01,0018397148,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+09:29:00.520,19-11-01,0018397148,sm_power,wakeup(): ON.
+09:28:59.880,19-11-01,0018397184,sm_power,Power ON! Start WLAN
+09:28:59.890,19-11-01,0018397185,sm_power,TI_WLANMOD GPIO is disconnected 
+09:29:00.890,19-11-01,0018397185,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+09:29:00.910,19-11-01,0018397187,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+09:29:00.910,19-11-01,0018397187,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+09:29:00.910,19-11-01,0018397187,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+09:29:00.910,19-11-01,0018397187,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+09:29:00.910,19-11-01,0018397187,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+09:29:00.910,19-11-01,0018397187,sm_power,getOffMode(): Default
+09:29:00.910,19-11-01,0018397187,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+09:29:00.910,19-11-01,0018397187,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+09:29:05.460,19-11-01,0018397642,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+09:29:05.460,19-11-01,0018397642,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+09:29:05.470,19-11-01,0018397643,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+09:29:05.560,19-11-01,0018397652,     gui,Doc save complete in, 0.06, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+09:29:06.620,19-11-01,0018397758,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+09:29:07.530,19-11-01,0018397849,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+09:29:07.530,19-11-01,0018397849,sm_power,getOffMode(): Default
+09:29:07.530,19-11-01,0018397849,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+09:29:07.530,19-11-01,0018397849,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+09:29:07.530,19-11-01,0018397849,sm_power,off(): Off.
+09:29:07.530,19-11-01,0018397849,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+09:29:07.630,19-11-01,0018397859,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+09:29:07.630,19-11-01,0018397859,    NOTE,setUSBMode(): USB Mode: USB NONE
+09:29:07.630,19-11-01,0018397859, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+09:29:07.630,19-11-01,0018397859, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+09:29:07.680,19-11-01,0018397864,sm_power,hw_power_off(): WLANHAL Entered
+09:29:07.680,19-11-01,0018397864,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+09:29:07.680,19-11-01,0018397864,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+09:29:07.680 19-11-01 0018397864:******Log file closed*******
+09:29:08.780,19-11-01,0018397874,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:03:05.170,19-11-01,0018397913,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:03:05.170,19-11-01,0018397913,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+11:03:05.170,19-11-01,0018397913,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+11:03:05.170,19-11-01,0018397913,sm_power,wakeup(): ON.
+11:03:05.530,19-11-01,0018397949,sm_power,Power ON! Start WLAN
+11:03:05.540,19-11-01,0018397950,sm_power,TI_WLANMOD GPIO is disconnected 
+11:03:05.540,19-11-01,0018397950,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:03:05.560,19-11-01,0018397952,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+11:03:05.560,19-11-01,0018397952,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+11:03:05.560,19-11-01,0018397952,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:03:05.560,19-11-01,0018397952,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+11:03:05.560,19-11-01,0018397952,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+11:03:05.560,19-11-01,0018397952,sm_power,getOffMode(): Default
+11:03:05.560,19-11-01,0018397952,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+11:03:05.560,19-11-01,0018397952,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:03:20.510,19-11-01,0018399447,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+11:03:20.510,19-11-01,0018399447,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+11:03:20.520,19-11-01,0018399448,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:03:20.600,19-11-01,0018399456,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+11:03:22.670,19-11-01,0018399563,     gui,Doc save complete in, 0.08, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+11:03:22.570,19-11-01,0018399653,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+11:03:22.570,19-11-01,0018399653,sm_power,getOffMode(): Default
+11:03:22.570,19-11-01,0018399653,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+11:03:22.570,19-11-01,0018399653,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+11:03:22.570,19-11-01,0018399653,sm_power,off(): Off.
+11:03:22.570,19-11-01,0018399653,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+11:03:23.670,19-11-01,0018399663,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+11:03:23.670,19-11-01,0018399663,    NOTE,setUSBMode(): USB Mode: USB NONE
+11:03:23.670,19-11-01,0018399663, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+11:03:23.670,19-11-01,0018399663, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+11:03:23.720,19-11-01,0018399668,sm_power,hw_power_off(): WLANHAL Entered
+11:03:23.720,19-11-01,0018399668,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+11:03:23.720,19-11-01,0018399668,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:03:23.720 19-11-01 0018399668:******Log file closed*******
+11:11:43.820,19-11-01,0018399678,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:11:44.210,19-11-01,0018399717,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:11:44.210,19-11-01,0018399717,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+11:11:44.210,19-11-01,0018399717,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+11:11:44.210,19-11-01,0018399717,sm_power,wakeup(): ON.
+11:11:44.570,19-11-01,0018399753,sm_power,Power ON! Start WLAN
+11:11:44.580,19-11-01,0018399754,sm_power,TI_WLANMOD GPIO is disconnected 
+11:11:44.580,19-11-01,0018399754,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:11:44.600,19-11-01,0018399756,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+11:11:44.600,19-11-01,0018399756,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+11:11:44.600,19-11-01,0018399756,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:11:44.600,19-11-01,0018399756,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+11:11:44.600,19-11-01,0018399756,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+11:11:44.600,19-11-01,0018399756,sm_power,getOffMode(): Default
+11:11:44.600,19-11-01,0018399756,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+11:11:44.600,19-11-01,0018399756,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:12:32.390,19-11-01,0018404435,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+11:12:32.390,19-11-01,0018404435,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+11:12:32.400,19-11-01,0018404436,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:12:33.480,19-11-01,0018404444,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+11:12:34.540,19-11-01,0018404550,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+11:12:35.450,19-11-01,0018404641,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+11:12:35.450,19-11-01,0018404641,sm_power,getOffMode(): Default
+11:12:35.450,19-11-01,0018404641,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+11:12:35.450,19-11-01,0018404641,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+11:12:35.450,19-11-01,0018404641,sm_power,off(): Off.
+11:12:35.450,19-11-01,0018404641,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+11:12:35.550,19-11-01,0018404651,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+11:12:35.550,19-11-01,0018404651,    NOTE,setUSBMode(): USB Mode: USB NONE
+11:12:35.550,19-11-01,0018404651, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+11:12:35.550,19-11-01,0018404651, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+11:12:35.600,19-11-01,0018404656,sm_power,hw_power_off(): WLANHAL Entered
+11:12:35.600,19-11-01,0018404656,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+11:12:35.600,19-11-01,0018404656,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:12:35.600 19-11-01 0018404656:******Log file closed*******
+11:15:46.700,19-11-01,0018404666,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:15:47.090,19-11-01,0018404705,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:15:47.090,19-11-01,0018404705,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+11:15:47.090,19-11-01,0018404705,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+11:15:47.090,19-11-01,0018404705,sm_power,wakeup(): ON.
+11:15:47.450,19-11-01,0018404741,sm_power,Power ON! Start WLAN
+11:15:47.460,19-11-01,0018404742,sm_power,TI_WLANMOD GPIO is disconnected 
+11:15:47.460,19-11-01,0018404742,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:15:47.490,19-11-01,0018404745,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+11:15:47.490,19-11-01,0018404745,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+11:15:47.490,19-11-01,0018404745,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:15:47.490,19-11-01,0018404745,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Wakeup.
+11:15:47.490,19-11-01,0018404745,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:15:47.490,19-11-01,0018404745,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+11:15:47.490,19-11-01,0018404745,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+11:15:47.490,19-11-01,0018404745,sm_power,getOffMode(): Default
+11:15:47.490,19-11-01,0018404745,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+11:15:47.490,19-11-01,0018404745,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:15:49.030,19-11-01,0018404899,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+11:15:49.030,19-11-01,0018404899,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+11:15:49.040,19-11-01,0018404900,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:15:49.120,19-11-01,0018404908,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+11:15:50.190,19-11-01,0018405015,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+11:15:51.100,19-11-01,0018405106,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+11:15:51.100,19-11-01,0018405106,sm_power,getOffMode(): Default
+11:15:51.100,19-11-01,0018405106,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+11:15:51.100,19-11-01,0018405106,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+11:15:51.100,19-11-01,0018405106,sm_power,off(): Off.
+11:15:51.100,19-11-01,0018405106,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+11:15:51.200,19-11-01,0018405116,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+11:15:51.200,19-11-01,0018405116,    NOTE,setUSBMode(): USB Mode: USB NONE
+11:15:51.200,19-11-01,0018405116, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+11:15:51.200,19-11-01,0018405116, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+11:15:51.250,19-11-01,0018405121,sm_power,hw_power_off(): WLANHAL Entered
+11:15:51.250,19-11-01,0018405121,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+11:15:51.250,19-11-01,0018405121,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:15:51.250 19-11-01 0018405121:******Log file closed*******
+11:22:33.350,19-11-01,0018405131,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:22:33.740,19-11-01,0018405170,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:22:33.740,19-11-01,0018405170,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+11:22:33.740,19-11-01,0018405170,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+11:22:33.740,19-11-01,0018405170,sm_power,wakeup(): ON.
+11:22:34.100,19-11-01,0018405206,sm_power,Power ON! Start WLAN
+11:22:34.110,19-11-01,0018405207,sm_power,TI_WLANMOD GPIO is disconnected 
+11:22:34.110,19-11-01,0018405207,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:22:34.130,19-11-01,0018405209,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+11:22:34.130,19-11-01,0018405209,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+11:22:34.130,19-11-01,0018405209,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:22:34.130,19-11-01,0018405209,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+11:22:34.130,19-11-01,0018405209,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+11:22:34.130,19-11-01,0018405209,sm_power,getOffMode(): Default
+11:22:34.130,19-11-01,0018405209,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+11:22:34.130,19-11-01,0018405209,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:22:40.500,19-11-01,0018405846,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+11:22:40.500,19-11-01,0018405846,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+11:22:40.510,19-11-01,0018405847,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:22:40.590,19-11-01,0018405855,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+11:22:42.650,19-11-01,0018405961,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+11:22:43.560,19-11-01,0018406052,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+11:22:43.560,19-11-01,0018406052,sm_power,getOffMode(): Default
+11:22:43.560,19-11-01,0018406052,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+11:22:43.560,19-11-01,0018406052,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+11:22:43.560,19-11-01,0018406052,sm_power,off(): Off.
+11:22:43.560,19-11-01,0018406052,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+11:22:43.660,19-11-01,0018406062,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+11:22:43.660,19-11-01,0018406062,    NOTE,setUSBMode(): USB Mode: USB NONE
+11:22:43.660,19-11-01,0018406062, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+11:22:43.660,19-11-01,0018406062, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+11:22:43.710,19-11-01,0018406067,sm_power,hw_power_off(): WLANHAL Entered
+11:22:43.710,19-11-01,0018406067,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+11:22:43.710,19-11-01,0018406067,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:22:43.710 19-11-01 0018406067:******Log file closed*******
+11:24:52.810,19-11-01,0018406077,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:24:53.200,19-11-01,0018406116,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:24:53.200,19-11-01,0018406116,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+11:24:53.200,19-11-01,0018406116,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+11:24:53.200,19-11-01,0018406116,sm_power,wakeup(): ON.
+11:24:54.560,19-11-01,0018406152,sm_power,Power ON! Start WLAN
+11:24:54.570,19-11-01,0018406153,sm_power,TI_WLANMOD GPIO is disconnected 
+11:24:54.570,19-11-01,0018406153,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:24:54.590,19-11-01,0018406155,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+11:24:54.590,19-11-01,0018406155,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+11:24:54.590,19-11-01,0018406155,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:24:54.590,19-11-01,0018406155,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+11:24:54.590,19-11-01,0018406155,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+11:24:54.590,19-11-01,0018406155,sm_power,getOffMode(): Default
+11:24:54.590,19-11-01,0018406155,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+11:24:54.590,19-11-01,0018406155,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:25:03.990,19-11-01,0018407195,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+11:25:03.990,19-11-01,0018407195,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+11:25:04.000,19-11-01,0018407196,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:25:05.070,19-11-01,0018407203,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+11:25:06.130,19-11-01,0018407309,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+11:25:07.040,19-11-01,0018407400,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+11:25:07.040,19-11-01,0018407400,sm_power,getOffMode(): Default
+11:25:07.040,19-11-01,0018407400,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+11:25:07.040,19-11-01,0018407400,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+11:25:07.040,19-11-01,0018407400,sm_power,off(): Off.
+11:25:07.040,19-11-01,0018407400,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+11:25:07.140,19-11-01,0018407410,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+11:25:07.140,19-11-01,0018407410,    NOTE,setUSBMode(): USB Mode: USB NONE
+11:25:07.140,19-11-01,0018407410, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+11:25:07.140,19-11-01,0018407410, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+11:25:07.190,19-11-01,0018407415,sm_power,hw_power_off(): WLANHAL Entered
+11:25:07.190,19-11-01,0018407415,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+11:25:07.190,19-11-01,0018407415,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:25:07.190 19-11-01 0018407415:******Log file closed*******
+11:25:07.290,19-11-01,0018407425,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:25:58.680,19-11-01,0018407464,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:25:58.680,19-11-01,0018407464,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+11:25:58.680,19-11-01,0018407464,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+11:25:58.680,19-11-01,0018407464,sm_power,wakeup(): ON.
+11:25:58.040,19-11-01,0018407500,sm_power,Power ON! Start WLAN
+11:25:58.050,19-11-01,0018407501,sm_power,TI_WLANMOD GPIO is disconnected 
+11:25:58.050,19-11-01,0018407501,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:25:58.080,19-11-01,0018407504,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+11:25:58.080,19-11-01,0018407504,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+11:25:58.080,19-11-01,0018407504,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:25:58.080,19-11-01,0018407504,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+11:25:58.080,19-11-01,0018407504,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+11:25:58.080,19-11-01,0018407504,sm_power,getOffMode(): Default
+11:25:58.080,19-11-01,0018407504,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+11:25:58.080,19-11-01,0018407504,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:27:55.640,19-11-01,0018418860,SYSTEM H,dim_screen: Dim screen.
+11:27:57.790,19-11-01,0018419175,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:28:30.510,19-11-01,0018422347,SYSTEM H,dim_screen: Dim screen.
+11:28:46.110,19-11-01,0018423907,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:29:17.820,19-11-01,0018426978,SYSTEM H,dim_screen: Dim screen.
+11:29:19.230,19-11-01,0018427119,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:29:51.520,19-11-01,0018430248,SYSTEM H,dim_screen: Dim screen.
+11:32:06.330,19-11-01,0018443329,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:32:54.350,19-11-01,0018448031,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+11:32:54.350,19-11-01,0018448031,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+11:32:54.360,19-11-01,0018448032,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:32:54.430,19-11-01,0018448039,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+11:32:55.490,19-11-01,0018448145,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+11:32:56.400,19-11-01,0018448236,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+11:32:56.400,19-11-01,0018448236,sm_power,getOffMode(): Default
+11:32:56.400,19-11-01,0018448236,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+11:32:56.400,19-11-01,0018448236,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+11:32:56.400,19-11-01,0018448236,sm_power,off(): Off.
+11:32:56.400,19-11-01,0018448236,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+11:32:56.500,19-11-01,0018448246,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+11:32:56.500,19-11-01,0018448246,    NOTE,setUSBMode(): USB Mode: USB NONE
+11:32:56.500,19-11-01,0018448246, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+11:32:56.500,19-11-01,0018448246, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+11:32:56.550,19-11-01,0018448251,sm_power,hw_power_off(): WLANHAL Entered
+11:32:56.550,19-11-01,0018448251,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+11:32:56.550,19-11-01,0018448251,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:32:56.550 19-11-01 0018448251:******Log file closed*******
+11:34:26.650,19-11-01,0018448261,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:34:27.040,19-11-01,0018448300,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:34:27.040,19-11-01,0018448300,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+11:34:27.040,19-11-01,0018448300,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+11:34:27.040,19-11-01,0018448300,sm_power,wakeup(): ON.
+11:34:27.400,19-11-01,0018448336,sm_power,Power ON! Start WLAN
+11:34:27.410,19-11-01,0018448337,sm_power,TI_WLANMOD GPIO is disconnected 
+11:34:27.410,19-11-01,0018448337,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:34:27.430,19-11-01,0018448339,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+11:34:27.430,19-11-01,0018448339,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+11:34:27.430,19-11-01,0018448339,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:34:27.430,19-11-01,0018448339,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+11:34:27.430,19-11-01,0018448339,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+11:34:27.430,19-11-01,0018448339,sm_power,getOffMode(): Default
+11:34:27.430,19-11-01,0018448339,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+11:34:27.430,19-11-01,0018448339,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:35:03.270,19-11-01,0018451823,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+11:35:03.270,19-11-01,0018451823,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+11:35:03.280,19-11-01,0018451824,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:35:03.350,19-11-01,0018451831,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+11:35:04.410,19-11-01,0018451937,     gui,Doc save complete in, 0.09, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+11:35:05.320,19-11-01,0018452028,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+11:35:05.320,19-11-01,0018452028,sm_power,getOffMode(): Default
+11:35:05.320,19-11-01,0018452028,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+11:35:05.320,19-11-01,0018452028,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+11:35:05.320,19-11-01,0018452028,sm_power,off(): Off.
+11:35:05.320,19-11-01,0018452028,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+11:35:05.420,19-11-01,0018452038,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+11:35:05.420,19-11-01,0018452038,    NOTE,setUSBMode(): USB Mode: USB NONE
+11:35:05.420,19-11-01,0018452038, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+11:35:05.420,19-11-01,0018452038, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+11:35:05.470,19-11-01,0018452043,sm_power,hw_power_off(): WLANHAL Entered
+11:35:05.470,19-11-01,0018452043,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+11:35:05.470,19-11-01,0018452043,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:35:05.470 19-11-01 0018452043:******Log file closed*******
+11:44:53.570,19-11-01,0018452053,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:44:53.960,19-11-01,0018452092,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+11:44:53.960,19-11-01,0018452092,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+11:44:53.960,19-11-01,0018452092,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+11:44:53.960,19-11-01,0018452092,sm_power,wakeup(): ON.
+11:44:54.320,19-11-01,0018452128,sm_power,Power ON! Start WLAN
+11:44:54.330,19-11-01,0018452129,sm_power,TI_WLANMOD GPIO is disconnected 
+11:44:54.330,19-11-01,0018452129,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:44:54.350,19-11-01,0018452131,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+11:44:54.350,19-11-01,0018452131,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+11:44:54.350,19-11-01,0018452131,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+11:44:54.350,19-11-01,0018452131,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+11:44:54.350,19-11-01,0018452131,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+11:44:54.350,19-11-01,0018452131,sm_power,getOffMode(): Default
+11:44:54.350,19-11-01,0018452131,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+11:44:54.350,19-11-01,0018452131,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:45:49.100,19-11-01,0018457506,SYSTEM H,dim_screen: Dim screen.
+11:46:06.190,19-11-01,0018459115,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:47:59.240,19-11-01,0018470120,SYSTEM H,dim_screen: Dim screen.
+11:48:00.300,19-11-01,0018470226, TOUCH_1,dim_screen: Screen on. Dim time = 30
+11:48:36.660,19-11-01,0018473762, sm_chrg,sm_chrg:statemachineThread(): Enter->Check Battery. State->Check Source.
+11:48:36.660,19-11-01,0018473762, sm_chrg,sm_chrg:statemachineThread(): Exit->Check Battery. State->Check Source.
+11:49:56.640,19-11-01,0018481560,SYSTEM H,dim_screen: Dim screen.
+11:50:01.470,19-11-01,0018482043,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:52:26.640,19-11-01,0018496160,SYSTEM H,dim_screen: Dim screen.
+11:53:32.450,19-11-01,0018502641,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:54:28.460,19-11-01,0018508042,SYSTEM H,dim_screen: Dim screen.
+11:54:29.980,19-11-01,0018508294,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:57:42.970,19-11-01,0018527093,SYSTEM H,dim_screen: Dim screen.
+11:58:06.270,19-11-01,0018529323,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:59:43.310,19-11-01,0018538827,SYSTEM H,dim_screen: Dim screen.
+11:59:45.100,19-11-01,0018539006,KPT_TASK,dim_screen: Screen on. Dim time = 30
+11:59:49.910,19-11-01,0018539487,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+11:59:49.910,19-11-01,0018539487,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+11:59:49.920,19-11-01,0018539488,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+11:59:50.000,19-11-01,0018539496,     gui,Doc save complete in, 0.06, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+11:59:51.060,19-11-01,0018539602,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+11:59:51.960,19-11-01,0018539692,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+11:59:51.960,19-11-01,0018539692,sm_power,getOffMode(): Default
+11:59:51.960,19-11-01,0018539692,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+11:59:51.960,19-11-01,0018539692,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+11:59:51.960,19-11-01,0018539692,sm_power,off(): Off.
+11:59:51.960,19-11-01,0018539692,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+11:59:52.060,19-11-01,0018539702,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+11:59:52.060,19-11-01,0018539702,    NOTE,setUSBMode(): USB Mode: USB NONE
+11:59:52.060,19-11-01,0018539702, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+11:59:52.060,19-11-01,0018539702, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+11:59:52.110,19-11-01,0018539707,sm_power,hw_power_off(): WLANHAL Entered
+11:59:52.110,19-11-01,0018539707,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+11:59:52.110,19-11-01,0018539707,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+11:59:54.770 19-11-01 0018539873:******Log file closed*******
+12:00:11.870,19-11-01,0018539883,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:00:12.270,19-11-01,0018539923,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:00:12.270,19-11-01,0018539923,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+12:00:12.270,19-11-01,0018539923,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+12:00:12.270,19-11-01,0018539923,sm_power,wakeup(): ON.
+12:00:13.630,19-11-01,0018539959,sm_power,Power ON! Start WLAN
+12:00:13.640,19-11-01,0018539960,sm_power,TI_WLANMOD GPIO is disconnected 
+12:00:13.640,19-11-01,0018539960,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:00:13.660,19-11-01,0018539962,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+12:00:13.660,19-11-01,0018539962,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+12:00:13.660,19-11-01,0018539962,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:00:13.660,19-11-01,0018539962,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Wakeup.
+12:00:13.660,19-11-01,0018539962,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:00:13.660,19-11-01,0018539962,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+12:00:13.660,19-11-01,0018539962,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+12:00:13.660,19-11-01,0018539962,sm_power,getOffMode(): Default
+12:00:13.660,19-11-01,0018539962,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+12:00:13.660,19-11-01,0018539962,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:01:05.360,19-11-01,0018545032,SYSTEM H,dim_screen: Dim screen.
+12:01:05.950,19-11-01,0018545191,KPT_TASK,dim_screen: Screen on. Dim time = 30
+12:02:42.050,19-11-01,0018554501,SYSTEM H,dim_screen: Dim screen.
+12:03:07.510,19-11-01,0018556947,KPT_TASK,dim_screen: Screen on. Dim time = 30
+12:04:46.810,19-11-01,0018566677,SYSTEM H,dim_screen: Dim screen.
+12:04:47.200,19-11-01,0018566716,KPT_TASK,dim_screen: Screen on. Dim time = 30
+12:05:59.970,19-11-01,0018573793,SYSTEM H,dim_screen: Dim screen.
+12:06:18.640,19-11-01,0018575560,KPT_TASK,dim_screen: Screen on. Dim time = 30
+12:07:44.770,19-11-01,0018583973,SYSTEM H,dim_screen: Dim screen.
+12:07:45.770,19-11-01,0018584073,KPT_TASK,dim_screen: Screen on. Dim time = 30
+12:09:42.950,19-11-01,0018595591,SYSTEM H,dim_screen: Dim screen.
+12:09:51.680,19-11-01,0018596364,KPT_TASK,dim_screen: Screen on. Dim time = 30
+12:10:30.180,19-11-01,0018600114,SYSTEM H,dim_screen: Dim screen.
+12:10:33.710,19-11-01,0018600467,KPT_TASK,dim_screen: Screen on. Dim time = 30
+12:11:01.070,19-11-01,0018603203,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+12:11:01.070,19-11-01,0018603203,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+12:11:01.080,19-11-01,0018603204,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:11:01.150,19-11-01,0018603211,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+12:11:02.220,19-11-01,0018603318,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+12:11:03.120,19-11-01,0018603408,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+12:11:03.120,19-11-01,0018603408,sm_power,getOffMode(): Default
+12:11:03.120,19-11-01,0018603408,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+12:11:03.120,19-11-01,0018603408,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+12:11:03.120,19-11-01,0018603408,sm_power,off(): Off.
+12:11:03.120,19-11-01,0018603408,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:11:03.220,19-11-01,0018603418,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+12:11:03.220,19-11-01,0018603418,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:11:03.220,19-11-01,0018603418, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:11:03.220,19-11-01,0018603418, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:11:04.270,19-11-01,0018603423,sm_power,hw_power_off(): WLANHAL Entered
+12:11:04.270,19-11-01,0018603423,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:11:04.270,19-11-01,0018603423,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:11:04.270 19-11-01 0018603423:******Log file closed*******
+12:11:46.370,19-11-01,0018603433,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:11:46.760,19-11-01,0018603472,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:11:46.760,19-11-01,0018603472,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+12:11:46.760,19-11-01,0018603472,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+12:11:46.760,19-11-01,0018603472,sm_power,wakeup(): ON.
+12:11:47.120,19-11-01,0018603508,sm_power,Power ON! Start WLAN
+12:11:47.130,19-11-01,0018603509,sm_power,TI_WLANMOD GPIO is disconnected 
+12:11:47.130,19-11-01,0018603509,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:11:47.150,19-11-01,0018603511,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+12:11:47.150,19-11-01,0018603511,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+12:11:47.150,19-11-01,0018603511,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:11:47.150,19-11-01,0018603511,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+12:11:47.150,19-11-01,0018603511,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+12:11:47.150,19-11-01,0018603511,sm_power,getOffMode(): Default
+12:11:47.150,19-11-01,0018603511,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+12:11:47.150,19-11-01,0018603511,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:13:24.620,19-11-01,0018613058,SYSTEM H,dim_screen: Dim screen.
+12:13:38.620,19-11-01,0018614358, TOUCH_1,dim_screen: Screen on. Dim time = 30
+12:14:04.370,19-11-01,0018616933,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+12:14:04.370,19-11-01,0018616933,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+12:14:04.380,19-11-01,0018616934,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:14:04.450,19-11-01,0018616941,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+12:14:05.530,19-11-01,0018617049,     gui,Doc save complete in, 0.11, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+12:14:06.420,19-11-01,0018617138,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+12:14:06.420,19-11-01,0018617138,sm_power,getOffMode(): Default
+12:14:06.420,19-11-01,0018617138,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+12:14:06.420,19-11-01,0018617138,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+12:14:06.420,19-11-01,0018617138,sm_power,off(): Off.
+12:14:06.420,19-11-01,0018617138,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:14:06.520,19-11-01,0018617148,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+12:14:06.520,19-11-01,0018617148,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:14:06.520,19-11-01,0018617148, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:14:06.520,19-11-01,0018617148, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:14:06.570,19-11-01,0018617153,sm_power,hw_power_off(): WLANHAL Entered
+12:14:06.570,19-11-01,0018617153,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:14:06.570,19-11-01,0018617153,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:14:06.570 19-11-01 0018617153:******Log file closed*******
+12:14:16.670,19-11-01,0018617163,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:14:16.060,19-11-01,0018617202,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:14:16.060,19-11-01,0018617202,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+12:14:16.060,19-11-01,0018617202,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+12:14:16.060,19-11-01,0018617202,sm_power,wakeup(): ON.
+12:14:16.060,19-11-01,0018617202,    NOTE,BattInfo:12:14:15 19-11-01    Running         0000mV   3526mV   3526mV    2%
+12:14:17.420,19-11-01,0018617238,sm_power,Power ON! Start WLAN
+12:14:17.430,19-11-01,0018617239,sm_power,TI_WLANMOD GPIO is disconnected 
+12:14:17.430,19-11-01,0018617239,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:14:17.450,19-11-01,0018617241,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+12:14:17.450,19-11-01,0018617241,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+12:14:17.450,19-11-01,0018617241,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:14:17.450,19-11-01,0018617241,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+12:14:17.450,19-11-01,0018617241,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+12:14:17.450,19-11-01,0018617241,sm_power,getOffMode(): Default
+12:14:17.450,19-11-01,0018617241,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+12:14:17.450,19-11-01,0018617241,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:14:18.620,19-11-01,0018617358,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+12:14:18.620,19-11-01,0018617358,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+12:14:18.700,19-11-01,0018617366,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:14:18.780,19-11-01,0018617374,     gui,Doc save complete in, 0.06, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+12:14:18.850,19-11-01,0018617481,     gui,Doc save complete in, 0.11, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+12:14:20.740,19-11-01,0018617570,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+12:14:20.740,19-11-01,0018617570,sm_power,getOffMode(): Default
+12:14:20.740,19-11-01,0018617570,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+12:14:20.740,19-11-01,0018617570,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+12:14:20.740,19-11-01,0018617570,sm_power,off(): Off.
+12:14:20.740,19-11-01,0018617570,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:14:19.840,19-11-01,0018617580,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+12:14:19.840,19-11-01,0018617580,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:14:19.840,19-11-01,0018617580, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:14:19.840,19-11-01,0018617580, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:14:19.890,19-11-01,0018617585,sm_power,hw_power_off(): WLANHAL Entered
+12:14:19.890,19-11-01,0018617585,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:14:19.890,19-11-01,0018617585,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:14:19.890 19-11-01 0018617585:******Log file closed*******
+12:16:10.990,19-11-01,0018617595,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:16:11.380,19-11-01,0018617634,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:16:11.380,19-11-01,0018617634,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+12:16:11.380,19-11-01,0018617634,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+12:16:11.380,19-11-01,0018617634,sm_power,wakeup(): ON.
+12:16:12.740,19-11-01,0018617670,sm_power,Power ON! Start WLAN
+12:16:12.750,19-11-01,0018617671,sm_power,TI_WLANMOD GPIO is disconnected 
+12:16:12.750,19-11-01,0018617671,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:16:12.780,19-11-01,0018617674,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+12:16:12.780,19-11-01,0018617674,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+12:16:12.780,19-11-01,0018617674,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:16:12.780,19-11-01,0018617674,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+12:16:12.780,19-11-01,0018617674,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+12:16:12.780,19-11-01,0018617674,sm_power,getOffMode(): Default
+12:16:12.780,19-11-01,0018617674,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+12:16:12.780,19-11-01,0018617674,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:17:05.660,19-11-01,0018622862,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+12:17:05.660,19-11-01,0018622862,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+12:17:05.670,19-11-01,0018622863,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:17:05.740,19-11-01,0018622870,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+12:17:05.810,19-11-01,0018622977,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+12:17:07.710,19-11-01,0018623067,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+12:17:07.710,19-11-01,0018623067,sm_power,getOffMode(): Default
+12:17:07.710,19-11-01,0018623067,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+12:17:07.710,19-11-01,0018623067,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+12:17:07.710,19-11-01,0018623067,sm_power,off(): Off.
+12:17:07.710,19-11-01,0018623067,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:17:06.810,19-11-01,0018623077,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+12:17:06.810,19-11-01,0018623077,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:17:06.810,19-11-01,0018623077, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:17:06.810,19-11-01,0018623077, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:17:06.860,19-11-01,0018623082,sm_power,hw_power_off(): WLANHAL Entered
+12:17:06.860,19-11-01,0018623082,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:17:06.860,19-11-01,0018623082,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:17:06.860 19-11-01 0018623082:******Log file closed*******
+12:17:07.960,19-11-01,0018623092,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:17:11.350,19-11-01,0018623131,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:17:11.350,19-11-01,0018623131,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+12:17:11.350,19-11-01,0018623131,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+12:17:11.350,19-11-01,0018623131,sm_power,wakeup(): ON.
+12:17:11.710,19-11-01,0018623167,sm_power,Power ON! Start WLAN
+12:17:11.720,19-11-01,0018623168,sm_power,TI_WLANMOD GPIO is disconnected 
+12:17:11.720,19-11-01,0018623168,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:17:11.750,19-11-01,0018623171,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+12:17:11.750,19-11-01,0018623171,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+12:17:11.750,19-11-01,0018623171,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:17:11.750,19-11-01,0018623171,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+12:17:11.750,19-11-01,0018623171,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+12:17:11.750,19-11-01,0018623171,sm_power,getOffMode(): Default
+12:17:11.750,19-11-01,0018623171,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+12:17:11.750,19-11-01,0018623171,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:17:46.850,19-11-01,0018626681,SYSTEM H,dim_screen: Dim screen.
+12:18:26.530,19-11-01,0018630449,KPT_TASK,dim_screen: Screen on. Dim time = 30
+12:21:29.510,19-11-01,0018648347,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+12:21:29.510,19-11-01,0018648347,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+12:21:29.520,19-11-01,0018648348,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:21:29.600,19-11-01,0018648356,     gui,Doc save complete in, 0.06, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+12:21:31.660,19-11-01,0018648462,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+12:21:31.560,19-11-01,0018648552,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+12:21:31.560,19-11-01,0018648552,sm_power,getOffMode(): Default
+12:21:31.560,19-11-01,0018648552,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+12:21:31.560,19-11-01,0018648552,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+12:21:31.560,19-11-01,0018648552,sm_power,off(): Off.
+12:21:31.560,19-11-01,0018648552,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:21:32.660,19-11-01,0018648562,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+12:21:32.660,19-11-01,0018648562,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:21:32.660,19-11-01,0018648562, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:21:32.660,19-11-01,0018648562, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:21:32.710,19-11-01,0018648567,sm_power,hw_power_off(): WLANHAL Entered
+12:21:32.710,19-11-01,0018648567,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:21:32.710,19-11-01,0018648567,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:21:32.710 19-11-01 0018648567:******Log file closed*******
+12:21:42.810,19-11-01,0018648577,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:21:44.200,19-11-01,0018648616,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+12:21:44.200,19-11-01,0018648616,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+12:21:44.200,19-11-01,0018648616,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+12:21:44.200,19-11-01,0018648616,sm_power,wakeup(): ON.
+12:21:44.560,19-11-01,0018648652,sm_power,Power ON! Start WLAN
+12:21:44.570,19-11-01,0018648653,sm_power,TI_WLANMOD GPIO is disconnected 
+12:21:44.570,19-11-01,0018648653,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:21:44.600,19-11-01,0018648656,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+12:21:44.600,19-11-01,0018648656,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+12:21:44.600,19-11-01,0018648656,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+12:21:44.600,19-11-01,0018648656,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+12:21:44.600,19-11-01,0018648656,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+12:21:44.600,19-11-01,0018648656,sm_power,getOffMode(): Default
+12:21:44.600,19-11-01,0018648656,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+12:21:44.600,19-11-01,0018648656,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:21:50.620,19-11-01,0018649258,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+12:21:50.620,19-11-01,0018649258,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+12:21:50.630,19-11-01,0018649259,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+12:21:50.700,19-11-01,0018649266,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+12:21:51.770,19-11-01,0018649373,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+12:21:52.670,19-11-01,0018649463,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+12:21:52.670,19-11-01,0018649463,sm_power,getOffMode(): Default
+12:21:52.670,19-11-01,0018649463,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+12:21:52.670,19-11-01,0018649463,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+12:21:52.670,19-11-01,0018649463,sm_power,off(): Off.
+12:21:52.670,19-11-01,0018649463,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+12:21:52.770,19-11-01,0018649473,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+12:21:52.770,19-11-01,0018649473,    NOTE,setUSBMode(): USB Mode: USB NONE
+12:21:52.770,19-11-01,0018649473, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+12:21:52.770,19-11-01,0018649473, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+12:21:51.820,19-11-01,0018649478,sm_power,hw_power_off(): WLANHAL Entered
+12:21:51.820,19-11-01,0018649478,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+12:21:51.820,19-11-01,0018649478,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+12:21:51.820 19-11-01 0018649478:******Log file closed*******
+12:21:52.920,19-11-01,0018649488,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupCTB.
+13:08:52.310,19-11-01,0018649527,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupCTB.
+13:08:52.310,19-11-01,0018649527,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+13:08:52.310,19-11-01,0018649527,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+13:08:52.310,19-11-01,0018649527,sm_power,wakeup(): ON.
+13:08:52.670,19-11-01,0018649563,sm_power,Power ON! Start WLAN
+13:08:52.680,19-11-01,0018649564,sm_power,TI_WLANMOD GPIO is disconnected 
+13:08:52.680,19-11-01,0018649564,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:08:52.700,19-11-01,0018649566,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+13:08:52.700,19-11-01,0018649566,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+13:08:52.700,19-11-01,0018649566,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:08:52.700,19-11-01,0018649566,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+13:08:52.700,19-11-01,0018649566,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+13:08:52.700,19-11-01,0018649566,sm_power,getOffMode(): Default
+13:08:52.700,19-11-01,0018649566,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+13:08:52.700,19-11-01,0018649566,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:08:54.670,19-11-01,0018649763,     CTB,CTB_Task: CTB_ATTACH_DEBOUNCED
+13:08:54.670,19-11-01,0018649763,     CTB,enableRemoveDetect()
+13:08:55.450,19-11-01,0018649841,  ioHISR,CTB_handler(): ctb_status: 1
+13:08:55.450,19-11-01,0018649841,     CTB,CTB_Task: CTB_DETACH
+13:08:54.950,19-11-01,0018649891,     CTB,CTB_Task: CTB_DETACH_DEBOUNCED
+13:08:54.970,19-11-01,0018649893,     CTB,enableInsertDetect()
+13:08:54.970,19-11-01,0018649893, sm_chrg,sm_chrg:statemachineThread(): Enter->CTB Removed. State->Check Source.
+13:08:54.970,19-11-01,0018649893, sm_chrg,sm_chrg:statemachineThread(): Exit->CTB Removed. State->Check Source.
+13:08:54.970,19-11-01,0018649893,     CTB,setPowerProvider(): CTB(0): off
+13:08:54.970,19-11-01,0018649893,sm_power,sm_power:statemachineThread(): Enter->CTB Exit. State->Active.
+13:08:54.970,19-11-01,0018649893,sm_power,sm_power:statemachineThread(): Exit->CTB Exit. State->Active.
+13:08:54.970,19-11-01,0018649893,     CTB,autodim_power_callback: Restart dim Timer. flags(0x80000008)
+13:08:57.620,19-11-01,0018650058,  ioHISR,CTB_handler(): ctb_status: 2
+13:08:57.620,19-11-01,0018650058,     CTB,CTB_Task: CTB_ATTACH
+13:08:58.120,19-11-01,0018650108,     CTB,CTB_Task: CTB_DETACH_DEBOUNCED
+13:09:03.620,19-11-01,0018650658,     CTB,CTB_Task: CTB_ATTACH_DEBOUNCED
+13:09:03.620,19-11-01,0018650658,     CTB,enableRemoveDetect()
+13:09:05.050,19-11-01,0018650801,  ioHISR,CTB_handler(): ctb_status: 1
+13:09:05.050,19-11-01,0018650801,     CTB,CTB_Task: CTB_DETACH
+13:09:05.550,19-11-01,0018650851,     CTB,CTB_Task: CTB_ATTACH_DEBOUNCED
+13:09:05.550,19-11-01,0018650851,     CTB,enableRemoveDetect()
+13:09:06.510,19-11-01,0018650947,  ioHISR,CTB_handler(): ctb_status: 1
+13:09:06.510,19-11-01,0018650947,     CTB,CTB_Task: CTB_DETACH
+13:09:07.010,19-11-01,0018650997,     CTB,CTB_Task: CTB_ATTACH_DEBOUNCED
+13:09:07.010,19-11-01,0018650997,     CTB,enableRemoveDetect()
+13:09:10.350,19-11-01,0018651331,  ioHISR,CTB_handler(): ctb_status: 1
+13:09:10.350,19-11-01,0018651331,     CTB,CTB_Task: CTB_DETACH
+13:09:10.850,19-11-01,0018651381,     CTB,CTB_Task: CTB_ATTACH_DEBOUNCED
+13:09:10.850,19-11-01,0018651381,     CTB,enableRemoveDetect()
+13:09:22.190,19-11-01,0018652515,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+13:09:22.190,19-11-01,0018652515,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+13:09:22.200,19-11-01,0018652516,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:09:22.270,19-11-01,0018652523,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+13:09:24.340,19-11-01,0018652630,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+13:09:24.240,19-11-01,0018652720,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+13:09:24.240,19-11-01,0018652720,sm_power,getOffMode(): Default
+13:09:24.240,19-11-01,0018652720,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+13:09:24.240,19-11-01,0018652720,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+13:09:24.240,19-11-01,0018652720,sm_power,off(): Off.
+13:09:24.240,19-11-01,0018652720,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+13:09:25.340,19-11-01,0018652730,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+13:09:25.340,19-11-01,0018652730,    NOTE,setUSBMode(): USB Mode: USB NONE
+13:09:25.340,19-11-01,0018652730, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+13:09:25.340,19-11-01,0018652730, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+13:09:25.390,19-11-01,0018652735,sm_power,hw_power_off(): WLANHAL Entered
+13:09:25.390,19-11-01,0018652735,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+13:09:25.390,19-11-01,0018652735,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:09:25.390 19-11-01 0018652735:******Log file closed*******
+13:09:26.490,19-11-01,0018652745,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupCTB.
+13:09:25.880,19-11-01,0018652784,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupCTB.
+13:09:25.880,19-11-01,0018652784,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+13:09:25.880,19-11-01,0018652784,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+13:09:25.880,19-11-01,0018652784,sm_power,wakeup(): ON.
+13:09:26.240,19-11-01,0018652820,sm_power,Power ON! Start WLAN
+13:09:26.250,19-11-01,0018652821,sm_power,TI_WLANMOD GPIO is disconnected 
+13:09:26.250,19-11-01,0018652821,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:09:27.270,19-11-01,0018652823,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+13:09:27.270,19-11-01,0018652823,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+13:09:27.270,19-11-01,0018652823,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:09:27.270,19-11-01,0018652823,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+13:09:27.270,19-11-01,0018652823,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+13:09:27.270,19-11-01,0018652823,sm_power,getOffMode(): Default
+13:09:27.270,19-11-01,0018652823,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+13:09:27.270,19-11-01,0018652823,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:09:28.880,19-11-01,0018653084,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+13:09:28.880,19-11-01,0018653084,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+13:09:28.890,19-11-01,0018653085,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:09:28.960,19-11-01,0018653092,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+13:09:29.080,19-11-01,0018653104,  ioHISR,CTB_handler(): ctb_status: 1
+13:09:29.080,19-11-01,0018653104,     CTB,CTB_Task: CTB_DETACH
+13:09:30.580,19-11-01,0018653154,     CTB,CTB_Task: CTB_DETACH_DEBOUNCED
+13:09:30.600,19-11-01,0018653156,     CTB,enableInsertDetect()
+13:09:30.600,19-11-01,0018653156, sm_chrg,sm_chrg:statemachineThread(): Enter->CTB Removed. State->Check Source.
+13:09:30.600,19-11-01,0018653156, sm_chrg,sm_chrg:statemachineThread(): Exit->CTB Removed. State->Check Source.
+13:09:30.600,19-11-01,0018653156,     CTB,setPowerProvider(): CTB(0): off
+13:09:30.600,19-11-01,0018653156,sm_power,sm_power:statemachineThread(): Enter->CTB Exit. State->User Off.
+13:09:30.600,19-11-01,0018653156,sm_power,sm_power:statemachineThread(): Exit->CTB Exit. State->User Off.
+13:09:30.600,19-11-01,0018653156,     CTB,autodim_power_callback: Restart dim Timer. flags(0x80000008)
+13:09:30.030,19-11-01,0018653199,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+13:09:30.930,19-11-01,0018653289,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+13:09:30.930,19-11-01,0018653289,sm_power,getOffMode(): Default
+13:09:30.930,19-11-01,0018653289,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+13:09:30.930,19-11-01,0018653289,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+13:09:30.930,19-11-01,0018653289,sm_power,off(): Off.
+13:09:30.930,19-11-01,0018653289,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+13:09:31.030,19-11-01,0018653299,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+13:09:31.030,19-11-01,0018653299,    NOTE,setUSBMode(): USB Mode: USB NONE
+13:09:31.030,19-11-01,0018653299, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+13:09:31.030,19-11-01,0018653299, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+13:09:31.080,19-11-01,0018653304,sm_power,hw_power_off(): WLANHAL Entered
+13:09:31.080,19-11-01,0018653304,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+13:09:31.080,19-11-01,0018653304,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:09:31.080 19-11-01 0018653304:******Log file closed*******
+13:11:19.180,19-11-01,0018653314,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:11:20.570,19-11-01,0018653353,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:11:20.570,19-11-01,0018653353,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+13:11:20.570,19-11-01,0018653353,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+13:11:20.570,19-11-01,0018653353,sm_power,wakeup(): ON.
+13:11:19.930,19-11-01,0018653389,sm_power,Power ON! Start WLAN
+13:11:19.940,19-11-01,0018653390,sm_power,TI_WLANMOD GPIO is disconnected 
+13:11:19.940,19-11-01,0018653390,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:11:19.960,19-11-01,0018653392,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+13:11:19.960,19-11-01,0018653392,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+13:11:19.960,19-11-01,0018653392,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:11:19.960,19-11-01,0018653392,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Wakeup.
+13:11:19.960,19-11-01,0018653392,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:11:19.960,19-11-01,0018653392,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+13:11:19.960,19-11-01,0018653392,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+13:11:19.960,19-11-01,0018653392,sm_power,getOffMode(): Default
+13:11:19.960,19-11-01,0018653392,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+13:11:19.960,19-11-01,0018653392,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:11:28.100,19-11-01,0018654106,     gui,NN: Checking Login Status: CanLogin: false LoggedIn: false
+13:11:28.840,19-11-01,0018654280,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+13:11:28.840,19-11-01,0018654280,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+13:11:28.940,19-11-01,0018654290,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:11:30.010,19-11-01,0018654297,     gui,Doc save complete in, 0.05, SPACER - /phoenix/syst/poweroff/currentdoc.tns, ,DOC_SAVE_TOTAL
+13:11:31.080,19-11-01,0018654404,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+13:11:31.980,19-11-01,0018654494,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+13:11:31.980,19-11-01,0018654494,sm_power,getOffMode(): Default
+13:11:31.980,19-11-01,0018654494,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+13:11:31.980,19-11-01,0018654494,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+13:11:31.980,19-11-01,0018654494,sm_power,off(): Off.
+13:11:31.980,19-11-01,0018654494,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+13:11:32.080,19-11-01,0018654504,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+13:11:32.080,19-11-01,0018654504,    NOTE,setUSBMode(): USB Mode: USB NONE
+13:11:32.080,19-11-01,0018654504, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+13:11:32.080,19-11-01,0018654504, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+13:11:32.130,19-11-01,0018654509,sm_power,hw_power_off(): WLANHAL Entered
+13:11:32.130,19-11-01,0018654509,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+13:11:32.130,19-11-01,0018654509,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:11:32.130 19-11-01 0018654509:******Log file closed*******
+13:14:14.230,19-11-01,0018654519,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:14:14.620,19-11-01,0018654558,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:14:14.620,19-11-01,0018654558,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+13:14:14.620,19-11-01,0018654558,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+13:14:14.620,19-11-01,0018654558,sm_power,wakeup(): ON.
+13:14:13.980,19-11-01,0018654594,sm_power,Power ON! Start WLAN
+13:14:13.990,19-11-01,0018654595,sm_power,TI_WLANMOD GPIO is disconnected 
+13:14:13.990,19-11-01,0018654595,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:14:14.020,19-11-01,0018654598,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+13:14:14.020,19-11-01,0018654598,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+13:14:14.020,19-11-01,0018654598,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:14:14.020,19-11-01,0018654598,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+13:14:14.020,19-11-01,0018654598,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+13:14:14.020,19-11-01,0018654598,sm_power,getOffMode(): Default
+13:14:14.020,19-11-01,0018654598,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+13:14:14.020,19-11-01,0018654598,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:14:19.400,19-11-01,0018655036,     gui,Doc save complete in, 0.05, SPACER - study/stats.tns, ,DOC_SAVE_TOTAL
+13:14:20.400,19-11-01,0018655136,     gui,Memory avail before close: 27317212,  Memory avail after close: 27773280,  Memory freed: 456068, DOC_CLOSE,MEMORY_USED
+13:14:20.400,19-11-01,0018655136,     gui,TI_PM_DIM_disable: Stop dim Timer. 
+13:14:20.400,19-11-01,0018655136,     gui,TI_PM_APD_allow(): Block APD is set to 1.
+13:14:20.600,19-11-01,0018655156,     gui,Product: 28 (defined in os/inc/deviceinfo.h)
+13:14:20.600,19-11-01,0018655156,     gui,Platform: 1 (defined in documentmanager/inc/hal.h)
+13:14:20.600,19-11-01,0018655156,     gui,Version: 5.1.0.177 CAS 
+13:14:20.600,19-11-01,0018655156,     gui,Date: 2019-6-28
+13:14:21.230,19-11-01,0018655219,     gui,Doc open complete in:, 0.830,  study/phyisics.tns, ,TOTAL_TIME
+13:14:21.230,19-11-01,0018655219,     gui,Memory avail before open: 27773280,  Memory avail after open: 27563236,  Memory used: 210044, DOC_OPEN , MEMORY_USED
+13:14:21.230,19-11-01,0018655219,     gui,TI_PM_APD_allow(): Block APD is set to 0.
+13:14:21.000,19-11-01,0018655296,     gui,Total Time to first Paint, 1.60, phyisics.tns, TIME_TO_FIRST_PAINT, TIME_TO_FIRST_PAINT
+13:15:07.200,19-11-01,0018659716,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+13:15:07.200,19-11-01,0018659716,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+13:15:07.210,19-11-01,0018659717,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:15:07.390,19-11-01,0018659735,     gui,Doc save complete in, 0.11, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+13:15:08.280,19-11-01,0018659824,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+13:15:08.280,19-11-01,0018659824,sm_power,getOffMode(): Default
+13:15:08.280,19-11-01,0018659824,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+13:15:08.280,19-11-01,0018659824,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+13:15:08.280,19-11-01,0018659824,sm_power,off(): Off.
+13:15:08.280,19-11-01,0018659824,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+13:15:08.380,19-11-01,0018659834,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+13:15:08.380,19-11-01,0018659834,    NOTE,setUSBMode(): USB Mode: USB NONE
+13:15:08.380,19-11-01,0018659834, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+13:15:08.380,19-11-01,0018659834, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+13:15:08.430,19-11-01,0018659839,sm_power,hw_power_off(): WLANHAL Entered
+13:15:08.430,19-11-01,0018659839,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+13:15:08.430,19-11-01,0018659839,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:15:08.430 19-11-01 0018659839:******Log file closed*******
+13:15:09.530,19-11-01,0018659849,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:15:08.920,19-11-01,0018659888,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:15:08.920,19-11-01,0018659888,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+13:15:08.920,19-11-01,0018659888,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+13:15:08.920,19-11-01,0018659888,sm_power,wakeup(): ON.
+13:16:40.280,19-11-01,0018659924,sm_power,Power ON! Start WLAN
+13:16:40.290,19-11-01,0018659925,sm_power,TI_WLANMOD GPIO is disconnected 
+13:16:40.290,19-11-01,0018659925,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:16:40.310,19-11-01,0018659927,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+13:16:40.310,19-11-01,0018659927,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+13:16:40.310,19-11-01,0018659927,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:16:40.310,19-11-01,0018659927,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+13:16:40.310,19-11-01,0018659927,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+13:16:40.310,19-11-01,0018659927,sm_power,getOffMode(): Default
+13:16:40.310,19-11-01,0018659927,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+13:16:40.310,19-11-01,0018659927,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:17:57.910,19-11-01,0018667587,sm_power,sm_power:statemachineThread(): Enter->User Off. State->Active.
+13:17:57.910,19-11-01,0018667587,sm_power,sm_power:statemachineThread(): Exit->User Off. State->User Off.
+13:17:57.920,19-11-01,0018667588,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:17:59.090,19-11-01,0018667605,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+13:17:58.990,19-11-01,0018667695,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->User Off.
+13:17:58.990,19-11-01,0018667695,sm_power,getOffMode(): Default
+13:17:58.990,19-11-01,0018667695,sm_power,sm_power:statemachineThread(): Exit->UI Approve. State->Which Off.
+13:17:58.990,19-11-01,0018667695,sm_power,sm_power:statemachineThread(): Enter->Off. State->Which Off.
+13:17:58.990,19-11-01,0018667695,sm_power,off(): Off.
+13:17:58.990,19-11-01,0018667695,sm_power,TI_ALARM_setNextAlarm(): Wakeup time set to 1440:00 minute(s). Mode = Battery Check.
+13:18:00.090,19-11-01,0018667705,sm_power,jungo_notify_callback:   Top Port:USB Event = NOTIFY_DEVICE_DETACH(12) config: 0 otgcsr=310020
+13:18:00.090,19-11-01,0018667705,    NOTE,setUSBMode(): USB Mode: USB NONE
+13:18:00.090,19-11-01,0018667705, sm_chrg,sm_chrg:statemachineThread(): Enter->USB Unplugged. State->Check Source.
+13:18:00.090,19-11-01,0018667705, sm_chrg,sm_chrg:statemachineThread(): Exit->USB Unplugged. State->Check Source.
+13:18:00.140,19-11-01,0018667710,sm_power,hw_power_off(): WLANHAL Entered
+13:18:00.140,19-11-01,0018667710,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: true
+13:18:00.140,19-11-01,0018667710,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:18:00.140 19-11-01 0018667710:******Log file closed*******
+13:18:11.240,19-11-01,0018667720,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:18:11.630,19-11-01,0018667759,sm_power,TI_PMU_wakeupStatus(): Woke up with wakeupOnKey.
+13:18:11.630,19-11-01,0018667759,sm_power,sm_power:statemachineThread(): Exit->Off. State->Off.
+13:18:11.630,19-11-01,0018667759,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Off.
+13:18:11.630,19-11-01,0018667759,sm_power,wakeup(): ON.
+13:18:11.990,19-11-01,0018667795,sm_power,Power ON! Start WLAN
+13:18:12.000,19-11-01,0018667796,sm_power,TI_WLANMOD GPIO is disconnected 
+13:18:12.000,19-11-01,0018667796,sm_power,TI_Keypad_SetHalt(): Keypad Halt: true
+13:18:12.020,19-11-01,0018667798,sm_power,TI_Keypad_SetHalt(): Keypad Halt: false
+13:18:12.020,19-11-01,0018667798,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Save Document.
+13:18:12.020,19-11-01,0018667798,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:18:12.020,19-11-01,0018667798,sm_power,sm_power:statemachineThread(): Enter->Wakeup. State->Wakeup.
+13:18:12.020,19-11-01,0018667798,sm_power,sm_power:statemachineThread(): Exit->Wakeup. State->Wakeup.
+13:18:12.020,19-11-01,0018667798,sm_power,sm_power:statemachineThread(): Enter->Start. State->Wakeup.
+13:18:12.020,19-11-01,0018667798,sm_power,TI_Keypad_SetOnlyOnKey(): Only On Key: false
+13:18:12.020,19-11-01,0018667798,sm_power,getOffMode(): Default
+13:18:12.020,19-11-01,0018667798,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+13:18:12.020,19-11-01,0018667798,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:18:40.940,19-11-01,0018670690, BattMon,Battery is Critical...ship mode enable!
+13:18:40.940,19-11-01,0018670690,sm_power,sm_power:statemachineThread(): Enter->Critical Off. State->Active.
+13:18:40.940,19-11-01,0018670690,sm_power,sm_power:statemachineThread(): Exit->Critical Off. State->Critical Off.
+13:18:40.950,19-11-01,0018670691,     gui,TI_PTT_Check(): TI_TestMode_Detected=0
+13:18:41.070,19-11-01,0018670703,     gui,Doc save complete in, 0.10, SPACER - /phoenix/syst/poweroff/currentsadoc.tns, ,DOC_SAVE_TOTAL
+13:18:41.940,19-11-01,0018670790, BattMon,Battery is Critical...ship mode enable!
+13:18:41.940,19-11-01,0018670790,sm_power,sm_power:statemachineThread(): Enter->Critical Off. State->Critical Off.
+13:18:41.940,19-11-01,0018670790,sm_power,sm_power:statemachineThread(): Exit->Critical Off. State->Critical Off.
+13:18:41.970,19-11-01,0018670793,sm_power,sm_power:statemachineThread(): Enter->UI Approve. State->Critical Off.
+13:18:42.080,19-11-01,0018670804,sm_power,TI_PM_Hibernate(): Hibernate.
+13:18:43.280,19-11-01,0018670824,sm_power,TI_Cradle_PowerDeepOFF(): Deep Power Off.
+13:18:43.280,19-11-01,0018670824,sm_power,hw_power_deepoff(): Entered
+13:18:43.280,19-11-01,0018670824,sm_power,TI_ALARM_clear(): Alarm cleared. Mode = Battery Check.
+13:18:43.380 19-11-01 0018670834:******Log file closed*******
+********************************************************************************
+                                    END LOG                                     
+********************************************************************************

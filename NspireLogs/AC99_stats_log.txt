@@ -1,0 +1,33 @@
+*********************************************************
+Device ID: 1C200080000003CDC3C84B9AC99
+Version: 5.1.0.177  
+Device Type: TI-Nspire CX II CAS
+Log File Creation Time: 21:04:48.076 19-11-20 0017131351:
+*********************************************************
+Exception                :    0
+Maint OS Delete          :    0
+Maint Doc Delete         :    0
+Maint Format             :    0
+Maint DevCert Delete     :    0
+Secure Delete            :    0
+Secure Reboot            :    0
+Bad Install              :    0
+Validation Fail          :    0
+Hibernate                :    1
+Disk Check Pass          :    0
+Disk Check Fail          :    0
+File System Auto-format  :    1
+ADC Tuned                :    1
+Install Started          :    4
+Install Type Full        :    2
+Install Type Factory     :    2
+Updated Installer        :    1
+Successful Install       :    5
+Bad Distro Mount         :    0
+Bad Installer Update     :    0
+Bad Boot Loader Update   :    0
+Bad OS Loader Update     :    0
+Bad Resource Update      :    0
+Bad OS Update            :    0
+Unknown Install Error    :    0
+Bad OS Load              :    0

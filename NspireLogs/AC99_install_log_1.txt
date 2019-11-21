@@ -1,0 +1,210 @@
+00:00:00.020,70-01-01,0000000002,    Main,******************************** LOG STARTED **************************
+00:00:00.130,70-01-01,0000000013,    Main,ADC[0] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[1] Calibration: Low = 2924  High = 3899
+00:00:00.130,70-01-01,0000000013,    Main,ADC[2] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[3] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[4] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[5] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[6] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[7] Calibration: Low = 3000  High = 4000
+00:00:03.140,70-01-01,0000000014, TSK0040,*********************************************************
+00:00:03.140,70-01-01,0000000014, TSK0040,Version: 5.0.0.89  
+00:00:03.140,70-01-01,0000000014, TSK0040,Device ID: 1C200080000003CDC3C84B9AC99
+00:00:03.140,70-01-01,0000000014, TSK0040,Device Type: TI-Nspire CX II CAS
+00:00:03.140,70-01-01,0000000014, TSK0040,Log File Creation Time: 00:00:03.140 70-01-01 0000000014:
+00:00:03.140,70-01-01,0000000014, TSK0040,Line Header Format:  HH:MM:SS.mmm,YY-MM-DD,OS_TICK,String
+00:00:03.140,70-01-01,0000000014, TSK0040,*********************************************************
+00:00:03.140,70-01-01,0000000014, TSK0040,************************** Battery Stats ********************
+00:00:03.140,70-01-01,0000000014, TSK0040,Time                 Mode            SRC(mV)  ADC(mV)  RCB(mV)  Status
+00:00:03.140,70-01-01,0000000014, TSK0040,************************** Battery Stats ********************
+00:00:03.140,70-01-01,0000000014, TSK0040,Version: 5.0.0.89  
+00:00:03.140,70-01-01,0000000014, sm_chrg,ENTER Posix thread for sm_chrg
+00:00:03.140,70-01-01,0000000014, TSK0040,TI_Power_Charge_Mon_Initialize(): initialized
+00:00:03.140,70-01-01,0000000014,sm_power,ENTER Posix thread for sm_power
+00:00:03.140,70-01-01,0000000014, TSK0040,setPowerProvider(): PTT(0): off
+00:00:03.140,70-01-01,0000000014, TSK0040,TI_PWR_Initialize(): initialized
+00:00:03.240,70-01-01,0000000024, sm_chrg,sm_chrg:statemachineThread(): Enter->Start. State->Start.
+00:00:03.240,70-01-01,0000000024, sm_chrg,sm_chrg:statemachineThread(): Exit->Start. State->Initial Check.
+00:00:03.240,70-01-01,0000000024, sm_chrg,sm_chrg:statemachineThread(): Enter->Stand Alone. State->Initial Check.
+00:00:03.240,70-01-01,0000000024, sm_chrg,setChargeMode(): Charge Mode: CHARGE_OFF
+00:00:03.240,70-01-01,0000000024, sm_chrg,sm_chrg:statemachineThread(): Exit->Stand Alone. State->Stand Alone.
+00:00:03.240,70-01-01,0000000024, sm_chrg,sm_chrg:statemachineThread(): Enter->Check Source. State->Stand Alone.
+00:00:03.240,70-01-01,0000000024, sm_chrg,setChargeMode(): Charge Mode: CHARGE_OFF
+00:00:03.240,70-01-01,0000000024, sm_chrg,checkSource(): Wait for Event...
+00:00:03.240,70-01-01,0000000024, sm_chrg,sm_chrg:statemachineThread(): Exit->Check Source. State->Check Source.
+00:00:03.240,70-01-01,0000000024, TSK0040,TI_ALARM_add(): Alarm added for 1440:00 minute(s). Mode = Battery Check.
+00:00:03.240,70-01-01,0000000024,sm_power,sm_power:statemachineThread(): Enter->Start. State->Start.
+00:00:03.240,70-01-01,0000000024,sm_power,getOffMode(): Default
+00:00:03.240,70-01-01,0000000024,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+00:00:04.140,70-01-01,0000000114,    NOTE,BattInfo:00:00:04 70-01-01    Running         0000mV   3718mV   3718mV   25%
+00:00:11.650,70-01-01,0000000765, TSK0040,Posix thread for INI file started
+00:00:11.650,70-01-01,0000000765, TSK0040,TI_DBG_INI_File_Parse not present.
+00:00:11.650,70-01-01,0000000765, dbg_log,Count Exceptions:
+00:00:11.650,70-01-01,0000000765, dbg_log,/logs/AC99_exception_1.txt file does not exist
+00:00:11.650,70-01-01,0000000765, dbg_log,Found 0 Exceptions.
+00:00:11.660,70-01-01,0000000766, dbg_log,logToErrorFile(): L:/AC99_error_log_1.txt file does not exist
+00:00:11.690,70-01-01,0000000769, TSK0040,Installing Operating System...
+00:00:11.690,70-01-01,0000000769, TSK0040,IMAGE: verifying OS partition 
+00:00:15.350,70-01-01,0000001135, TSK0040,Performing Factory Install.
+00:00:15.530,70-01-01,0000001153, TSK0040,Fixed OS Loader!
+00:00:15.670,70-01-01,0000001167, TSK0040,Updated Resources.
+00:00:15.680,70-01-01,0000001168, TSK0040,Install Succeeded.
+00:00:15.680,70-01-01,0000001168, TSK0040,Restarting system.
+00:00:15.800,70-01-01,0000001180, TSK0040,Device Restart: main.c(459) 
+00:00:15.800 70-01-01 0000001180:******Log file closed*******
+00:00:00.020,70-01-01,0000000002,    Main,******************************** LOG STARTED **************************
+00:00:00.130,70-01-01,0000000013,    Main,ADC[0] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[1] Calibration: Low = 2924  High = 3899
+00:00:00.130,70-01-01,0000000013,    Main,ADC[2] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[3] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[4] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[5] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[6] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[7] Calibration: Low = 3000  High = 4000
+00:00:05.150,70-01-01,0000000015, TSK0040,*********************************************************
+00:00:05.150,70-01-01,0000000015, TSK0040,Version: 5.0.0.89  
+00:00:05.150,70-01-01,0000000015, TSK0040,Device ID: 1C200080000003CDC3C84B9AC99
+00:00:05.150,70-01-01,0000000015, TSK0040,Device Type: TI-Nspire CX II CAS
+00:00:05.150,70-01-01,0000000015, TSK0040,Log File Creation Time: 00:00:05.150 70-01-01 0000000015:
+00:00:05.150,70-01-01,0000000015, TSK0040,Line Header Format:  HH:MM:SS.mmm,YY-MM-DD,OS_TICK,String
+00:00:05.150,70-01-01,0000000015, TSK0040,*********************************************************
+00:00:05.150,70-01-01,0000000015, TSK0040,************************** Battery Stats ********************
+00:00:05.150,70-01-01,0000000015, TSK0040,Time                 Mode            SRC(mV)  ADC(mV)  RCB(mV)  Status
+00:00:05.150,70-01-01,0000000015, TSK0040,************************** Battery Stats ********************
+00:00:05.150,70-01-01,0000000015, TSK0040,Version: 5.0.0.89  
+00:00:05.150,70-01-01,0000000015, sm_chrg,ENTER Posix thread for sm_chrg
+00:00:05.150,70-01-01,0000000015, TSK0040,TI_Power_Charge_Mon_Initialize(): initialized
+00:00:05.150,70-01-01,0000000015,sm_power,ENTER Posix thread for sm_power
+00:00:05.150,70-01-01,0000000015, TSK0040,setPowerProvider(): PTT(0): off
+00:00:05.150,70-01-01,0000000015, TSK0040,TI_PWR_Initialize(): initialized
+00:00:05.250,70-01-01,0000000025, sm_chrg,sm_chrg:statemachineThread(): Enter->Start. State->Start.
+00:00:05.250,70-01-01,0000000025, sm_chrg,sm_chrg:statemachineThread(): Exit->Start. State->Initial Check.
+00:00:05.250,70-01-01,0000000025, sm_chrg,sm_chrg:statemachineThread(): Enter->Stand Alone. State->Initial Check.
+00:00:05.250,70-01-01,0000000025, sm_chrg,setChargeMode(): Charge Mode: CHARGE_OFF
+00:00:05.250,70-01-01,0000000025, sm_chrg,sm_chrg:statemachineThread(): Exit->Stand Alone. State->Stand Alone.
+00:00:05.250,70-01-01,0000000025, sm_chrg,sm_chrg:statemachineThread(): Enter->Check Source. State->Stand Alone.
+00:00:05.250,70-01-01,0000000025, sm_chrg,setChargeMode(): Charge Mode: CHARGE_OFF
+00:00:05.250,70-01-01,0000000025, sm_chrg,checkSource(): Wait for Event...
+00:00:05.250,70-01-01,0000000025, sm_chrg,sm_chrg:statemachineThread(): Exit->Check Source. State->Check Source.
+00:00:05.250,70-01-01,0000000025, TSK0040,TI_ALARM_add(): Alarm added for 1440:00 minute(s). Mode = Battery Check.
+00:00:05.250,70-01-01,0000000025,sm_power,sm_power:statemachineThread(): Enter->Start. State->Start.
+00:00:05.250,70-01-01,0000000025,sm_power,getOffMode(): Default
+00:00:05.250,70-01-01,0000000025,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+00:00:06.150,70-01-01,0000000115,    NOTE,BattInfo:00:00:06 70-01-01    Running         0000mV   3551mV   3551mV   10%
+00:00:06.190,70-01-01,0000000119, TSK0040,Posix thread for INI file started
+00:00:06.190,70-01-01,0000000119, TSK0040,TI_DBG_INI_File_Parse not present.
+00:00:06.190,70-01-01,0000000119, dbg_log,Count Exceptions:
+00:00:06.190,70-01-01,0000000119, dbg_log,/logs/AC99_exception_1.txt file does not exist
+00:00:06.190,70-01-01,0000000119, dbg_log,Found 0 Exceptions.
+00:00:06.220,70-01-01,0000000122, TSK0040,Installing Operating System...
+00:00:06.230,70-01-01,0000000123, TSK0040,IMAGE: verifying OS partition 
+00:00:10.890,70-01-01,0000000489, TSK0040,Performing Factory Install.
+00:00:10.070,70-01-01,0000000507, TSK0040,Fixed OS Loader!
+00:00:10.210,70-01-01,0000000521, TSK0040,Updated Resources.
+00:00:10.230,70-01-01,0000000523, TSK0040,Install Succeeded.
+00:00:10.240,70-01-01,0000000524, TSK0040,Restarting system.
+00:00:10.370,70-01-01,0000000537, TSK0040,Device Restart: main.c(459) 
+00:00:10.370 70-01-01 0000000537:******Log file closed*******
+00:00:00.020,70-01-01,0000000002,    Main,******************************** LOG STARTED **************************
+00:00:00.130,70-01-01,0000000013,    Main,ADC[0] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[1] Calibration: Low = 2924  High = 3899
+00:00:00.130,70-01-01,0000000013,    Main,ADC[2] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[3] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[4] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[5] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[6] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[7] Calibration: Low = 3000  High = 4000
+17:00:11.150,19-09-03,0000000015, TSK0040,*********************************************************
+17:00:11.150,19-09-03,0000000015, TSK0040,Version: 5.0.0.89  
+17:00:11.150,19-09-03,0000000015, TSK0040,Device ID: 1C200080000003CDC3C84B9AC99
+17:00:11.150,19-09-03,0000000015, TSK0040,Device Type: TI-Nspire CX II CAS
+17:00:11.150,19-09-03,0000000015, TSK0040,Log File Creation Time: 17:00:11.150 19-09-03 0000000015:
+17:00:11.150,19-09-03,0000000015, TSK0040,Line Header Format:  HH:MM:SS.mmm,YY-MM-DD,OS_TICK,String
+17:00:11.150,19-09-03,0000000015, TSK0040,*********************************************************
+17:00:11.150,19-09-03,0000000015, TSK0040,************************** Battery Stats ********************
+17:00:11.150,19-09-03,0000000015, TSK0040,Time                 Mode            SRC(mV)  ADC(mV)  RCB(mV)  Status
+17:00:11.150,19-09-03,0000000015, TSK0040,************************** Battery Stats ********************
+17:00:11.150,19-09-03,0000000015, TSK0040,Version: 5.0.0.89  
+17:00:11.150,19-09-03,0000000015, sm_chrg,ENTER Posix thread for sm_chrg
+17:00:11.150,19-09-03,0000000015, TSK0040,TI_Power_Charge_Mon_Initialize(): initialized
+17:00:11.150,19-09-03,0000000015,sm_power,ENTER Posix thread for sm_power
+17:00:11.150,19-09-03,0000000015, TSK0040,setPowerProvider(): PTT(0): off
+17:00:11.150,19-09-03,0000000015, TSK0040,TI_PWR_Initialize(): initialized
+17:00:11.250,19-09-03,0000000025, sm_chrg,sm_chrg:statemachineThread(): Enter->Start. State->Start.
+17:00:11.250,19-09-03,0000000025, sm_chrg,sm_chrg:statemachineThread(): Exit->Start. State->Initial Check.
+17:00:11.250,19-09-03,0000000025, sm_chrg,sm_chrg:statemachineThread(): Enter->Check Source. State->Initial Check.
+17:00:11.250,19-09-03,0000000025, sm_chrg,setChargeMode(): Charge Mode: CHARGE_OFF
+17:00:11.250,19-09-03,0000000025, sm_chrg,checkSource(): Wait for Event...
+17:00:11.250,19-09-03,0000000025, sm_chrg,sm_chrg:statemachineThread(): Exit->Check Source. State->Check Source.
+17:00:11.250,19-09-03,0000000025, TSK0040,TI_ALARM_add(): Alarm added for 1440:00 minute(s). Mode = Battery Check.
+17:00:11.250,19-09-03,0000000025,sm_power,sm_power:statemachineThread(): Enter->Start. State->Start.
+17:00:11.250,19-09-03,0000000025,sm_power,getOffMode(): Default
+17:00:11.250,19-09-03,0000000025,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+17:00:12.150,19-09-03,0000000115,    NOTE,BattInfo:17:00:12 19-09-03    Running         0000mV   3831mV   3831mV   75%
+17:00:12.330,19-09-03,0000000133, TSK0040,Posix thread for INI file started
+17:00:12.330,19-09-03,0000000133, TSK0040,TI_DBG_INI_File_Parse not present.
+17:00:12.340,19-09-03,0000000134, dbg_log,Count Exceptions:
+17:00:12.340,19-09-03,0000000134, dbg_log,/logs/AC99_exception_1.txt file does not exist
+17:00:12.340,19-09-03,0000000134, dbg_log,Found 0 Exceptions.
+17:00:12.360,19-09-03,0000000136, TSK0040,Installing Operating System...
+17:00:12.390,19-09-03,0000000139, TSK0040,IMAGE: verifying file /tmp/TI-Nspire.tnt 
+17:00:20.200,19-09-03,0000000920, TSK0040,Performing Full Install.
+17:00:21.410,19-09-03,0000000941, TSK0040,Check for updated installer: 0
+17:00:21.750,19-09-03,0000000975, TSK0040,Update installer: 0
+17:00:21.800,19-09-03,0000000980, TSK0040,Reboot to use new installer.
+17:00:21.820,19-09-03,0000000982, TSK0040,Install Succeeded.
+17:00:21.840,19-09-03,0000000984, TSK0040,Restarting system.
+17:00:21.980,19-09-03,0000000998, TSK0040,Device Restart: main.c(459) 
+17:00:21.980 19-09-03 0000000998:******Log file closed*******
+00:00:00.020,70-01-01,0000000002,    Main,******************************** LOG STARTED **************************
+00:00:00.130,70-01-01,0000000013,    Main,ADC[0] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[1] Calibration: Low = 2924  High = 3899
+00:00:00.130,70-01-01,0000000013,    Main,ADC[2] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[3] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[4] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[5] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[6] Calibration: Low = 3000  High = 4000
+00:00:00.130,70-01-01,0000000013,    Main,ADC[7] Calibration: Low = 3000  High = 4000
+17:00:24.150,19-09-03,0000000015, TSK0040,*********************************************************
+17:00:24.150,19-09-03,0000000015, TSK0040,Version: 5.1.0.104  
+17:00:24.150,19-09-03,0000000015, TSK0040,Device ID: 1C200080000003CDC3C84B9AC99
+17:00:24.150,19-09-03,0000000015, TSK0040,Device Type: TI-Nspire CX II
+17:00:24.150,19-09-03,0000000015, TSK0040,Log File Creation Time: 17:00:24.150 19-09-03 0000000015:
+17:00:24.150,19-09-03,0000000015, TSK0040,Line Header Format:  HH:MM:SS.mmm,YY-MM-DD,OS_TICK,String
+17:00:24.150,19-09-03,0000000015, TSK0040,*********************************************************
+17:00:24.150,19-09-03,0000000015, TSK0040,************************** Battery Stats ********************
+17:00:24.150,19-09-03,0000000015, TSK0040,Time                 Mode            SRC(mV)  ADC(mV)  RCB(mV)  Status
+17:00:24.150,19-09-03,0000000015, TSK0040,************************** Battery Stats ********************
+17:00:24.150,19-09-03,0000000015, TSK0040,Version: 5.1.0.104  
+17:00:24.150,19-09-03,0000000015, sm_chrg,ENTER Posix thread for sm_chrg
+17:00:24.150,19-09-03,0000000015, TSK0040,TI_Power_Charge_Mon_Initialize(): initialized
+17:00:24.160,19-09-03,0000000016,sm_power,ENTER Posix thread for sm_power
+17:00:24.160,19-09-03,0000000016, TSK0040,setPowerProvider(): PTT(0): off
+17:00:24.160,19-09-03,0000000016, TSK0040,TI_PWR_Initialize(): initialized
+17:00:24.260,19-09-03,0000000026, sm_chrg,sm_chrg:statemachineThread(): Enter->Start. State->Start.
+17:00:24.260,19-09-03,0000000026, sm_chrg,sm_chrg:statemachineThread(): Exit->Start. State->Initial Check.
+17:00:24.260,19-09-03,0000000026, sm_chrg,sm_chrg:statemachineThread(): Enter->Check Source. State->Initial Check.
+17:00:24.260,19-09-03,0000000026, sm_chrg,setChargeMode(): Charge Mode: CHARGE_OFF
+17:00:24.260,19-09-03,0000000026, sm_chrg,checkSource(): Wait for Event...
+17:00:24.260,19-09-03,0000000026, sm_chrg,sm_chrg:statemachineThread(): Exit->Check Source. State->Check Source.
+17:00:24.260,19-09-03,0000000026, TSK0040,TI_ALARM_add(): Alarm added for 1440:00 minute(s). Mode = Battery Check.
+17:00:24.260,19-09-03,0000000026,sm_power,sm_power:statemachineThread(): Enter->Start. State->Start.
+17:00:24.260,19-09-03,0000000026,sm_power,getOffMode(): Default
+17:00:24.260,19-09-03,0000000026,sm_power,sm_power:statemachineThread(): Exit->Start. State->Active.
+17:00:25.150,19-09-03,0000000115,    NOTE,BattInfo:17:00:25 19-09-03    Running         0000mV   3842mV   3842mV   75%
+17:00:25.400,19-09-03,0000000140, TSK0040,Posix thread for INI file started
+17:00:25.400,19-09-03,0000000140, dbg_log,Count Exceptions:
+17:00:25.400,19-09-03,0000000140, dbg_log,/logs/AC99_exception_1.txt file does not exist
+17:00:25.400,19-09-03,0000000140, dbg_log,Found 0 Exceptions.
+17:00:25.430,19-09-03,0000000143, TSK0040,Installing Operating System...
+17:00:25.460,19-09-03,0000000146, TSK0040,IMAGE: verifying file /tmp/TI-Nspire.tnt 
+17:00:34.060,19-09-03,0000001006, TSK0040,Performing Full Install.
+17:00:34.280,19-09-03,0000001028, TSK0040,Check for updated installer: 1
+17:00:34.500,19-09-03,0000001050, TSK0040,Updated Boot Loader: 0
+17:00:35.670,19-09-03,0000001067, TSK0040,Updated OS Loader: 0
+17:00:44.690,19-09-03,0000001969, TSK0040,Updated OS Partition.
+17:00:44.830,19-09-03,0000001983, TSK0040,Updated Resources.
+17:00:44.860,19-09-03,0000001986, TSK0040,Install Succeeded.
+17:00:44.870,19-09-03,0000001987, TSK0040,Restarting system.
+17:00:44.990,19-09-03,0000001999, TSK0040,Device Restart: main.c(461) 
+17:00:44.990 19-09-03 0000001999:******Log file closed*******

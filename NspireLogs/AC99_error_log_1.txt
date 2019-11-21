@@ -1,0 +1,64 @@
+23:13:17.676,19-11-11,0008437824,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+23:13:33.676,19-11-11,0008439324,USBWrite,Datagram write error: 1!
+23:13:33.676,19-11-11,0008439324,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+23:13:48.676,19-11-11,0008440824,USBWrite,Datagram write error: 1!
+23:13:48.676,19-11-11,0008440824,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+23:13:54.926,19-11-11,0008441449,sm_power,TI_CN_TR_Reset: Transmit Pipe reset!
+23:13:54.926,19-11-11,0008441449,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
+21:56:53.346,19-11-14,0011202891,USBWrite,Datagram write error: 1!
+21:56:53.346,19-11-14,0011202891,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+21:57:08.346,19-11-14,0011204391,USBWrite,Datagram write error: 1!
+21:57:08.346,19-11-14,0011204391,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+21:57:24.346,19-11-14,0011205891,USBWrite,Datagram write error: 1!
+21:57:24.346,19-11-14,0011205891,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+21:57:35.526,19-11-14,0011207009, USBREAD,TI_CN_TR_Reset: Transmit Pipe reset!
+21:57:30.673,19-11-14,0011207031, TSK002D,TI_NN_Login(): username and password invalid.
+23:10:07.413,19-11-14,0011631805,  jUSB01,TI_CN_TR_Reset: Transmit Pipe reset!
+23:10:07.423,19-11-14,0011631806,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
+23:10:07.433,19-11-14,0011631807, TSK002F,WS_IO_StreamListen(): TI_CN_ERR_STREAM_DISCONNECT on node 100.0
+23:10:07.433,19-11-14,0011631807,sm_Conne,DestroyStreamListener(): freeing (119D2CF4)
+01:01:44.000,70-01-18,0014297941, TSK002C,TI_NN_Login(): username and password invalid.
+01:02:31.230,70-01-18,0014302564,  sender,TI_NN_GetFileAttributes(): [100.1:0x803a::100.0:SYNC]: error <-264>
+01:02:42.610,70-01-18,0014303602,  sender,TI_NN_GetFileAttributes(): [100.1:0x803c::100.0:SYNC]: error <-264>
+01:02:42.710,70-01-18,0014303612,  sender,TI_NN_GetFileAttributes(): [100.1:0x803d::100.0:SYNC]: error <-264>
+01:02:43.040,70-01-18,0014303645,  sender,TI_NN_GetFileAttributes(): [100.1:0x803e::100.0:SYNC]: error <-264>
+01:02:43.320,70-01-18,0014303673,  sender,TI_NN_GetFileAttributes(): [100.1:0x803f::100.0:SYNC]: error <-264>
+01:02:43.600,70-01-18,0014303701,  sender,TI_NN_GetFileAttributes(): [100.1:0x8040::100.0:SYNC]: error <-264>
+01:02:43.850,70-01-18,0014303726,  sender,TI_NN_GetFileAttributes(): [100.1:0x8041::100.0:SYNC]: error <-264>
+01:02:44.190,70-01-18,0014303760,  sender,TI_NN_GetFileAttributes(): [100.1:0x8042::100.0:SYNC]: error <-264>
+01:02:44.530,70-01-18,0014303794,  sender,TI_NN_GetFileAttributes(): [100.1:0x8043::100.0:SYNC]: error <-264>
+01:02:50.890,70-01-18,0014304330, TSK0031,Joining thread: 0x119EC0A8 (handle 0x0000002F)
+01:02:50.890,70-01-18,0014304330,NSRXnSpi,CN_Read: io fail: 100.0 (nSpireDev0)
+01:02:50.900,70-01-18,0014304331, TSK0031,Joining thread: 0x119EC0D4 (handle 0x0000002D)
+04:44:28.010,70-01-20,0016103342,USBWrite,Datagram write error: 1!
+04:44:28.010,70-01-20,0016103342,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:44:44.010,70-01-20,0016104842,USBWrite,Datagram write error: 1!
+04:44:44.010,70-01-20,0016104842,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:44:59.010,70-01-20,0016106342,USBWrite,Datagram write error: 1!
+04:44:59.010,70-01-20,0016106342,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:45:14.010,70-01-20,0016107842,USBWrite,Datagram write error: 1!
+04:45:14.010,70-01-20,0016107842,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:45:30.010,70-01-20,0016109342,USBWrite,Datagram write error: 1!
+04:45:30.010,70-01-20,0016109342,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:45:45.010,70-01-20,0016110842,USBWrite,Datagram write error: 1!
+04:45:45.010,70-01-20,0016110842,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:46:00.010,70-01-20,0016112342,USBWrite,Datagram write error: 1!
+04:46:00.010,70-01-20,0016112342,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:46:16.010,70-01-20,0016113842,USBWrite,Datagram write error: 1!
+04:46:16.010,70-01-20,0016113842,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:46:31.010,70-01-20,0016115342,USBWrite,Datagram write error: 1!
+04:46:31.010,70-01-20,0016115342,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:46:47.010,70-01-20,0016116842,USBWrite,Datagram write error: 1!
+04:46:47.010,70-01-20,0016116842,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:47:02.010,70-01-20,0016118342,USBWrite,Datagram write error: 1!
+04:47:02.010,70-01-20,0016118342,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+04:47:13.190,70-01-20,0016119460,  jUSB01,TI_CN_TR_Reset: Transmit Pipe reset!
+04:47:13.200,70-01-20,0016119461,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
+07:37:07.530,70-01-20,0017113594,USBWrite,Datagram write error: 1!
+07:37:07.530,70-01-20,0017113594,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+07:37:23.530,70-01-20,0017115094,USBWrite,Datagram write error: 1!
+07:37:23.530,70-01-20,0017115094,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+07:37:38.530,70-01-20,0017116594,USBWrite,Datagram write error: 1!
+07:37:38.530,70-01-20,0017116594,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+07:37:40.110,70-01-20,0017116752, USBREAD,TI_CN_TR_Reset: Transmit Pipe reset!
+21:02:18.316,19-11-20,0017116775, TSK002F,TI_NN_Login(): username and password invalid.
