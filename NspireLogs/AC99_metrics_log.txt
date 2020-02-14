@@ -2,12 +2,12 @@
 Device ID: 1C200080000003CDC3C84B9AC99
 Version: 5.1.0.177  
 Device Type: TI-Nspire CX II CAS
-Log File Creation Time: 21:04:48.106 19-11-20 0017131354:
+Log File Creation Time: 16:47:29.544 20-02-13 0026811034:
 *********************************************************
 Lifetime Metrics:
 WNA Unplugged             = 0
 WNAV2 Unplugged           = 1
-Reboots                   = 5
+Reboots                   = 6
 Connector Drops           = 0
 Wireless Drops            = 0
 Wireless Heartbeat        = 0

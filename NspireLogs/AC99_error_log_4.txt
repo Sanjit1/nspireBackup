@@ -1,863 +1,353 @@
-12:10:56.822,19-10-11,0002539209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:11:11.822,19-10-11,0002540709,USBWrite,Datagram write error: 1!
-12:11:11.822,19-10-11,0002540709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:11:27.822,19-10-11,0002542209,USBWrite,Datagram write error: 1!
-12:11:27.822,19-10-11,0002542209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:11:42.822,19-10-11,0002543709,USBWrite,Datagram write error: 1!
-12:11:42.822,19-10-11,0002543709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:11:58.822,19-10-11,0002545209,USBWrite,Datagram write error: 1!
-12:11:58.822,19-10-11,0002545209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:12:13.822,19-10-11,0002546709,USBWrite,Datagram write error: 1!
-12:12:13.822,19-10-11,0002546709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:12:28.822,19-10-11,0002548209,USBWrite,Datagram write error: 1!
-12:12:28.822,19-10-11,0002548209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:12:44.822,19-10-11,0002549709,USBWrite,Datagram write error: 1!
-12:12:44.822,19-10-11,0002549709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:12:59.822,19-10-11,0002551209,USBWrite,Datagram write error: 1!
-12:12:59.822,19-10-11,0002551209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:13:15.822,19-10-11,0002552709,USBWrite,Datagram write error: 1!
-12:13:15.822,19-10-11,0002552709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:13:30.822,19-10-11,0002554209,USBWrite,Datagram write error: 1!
-12:13:30.822,19-10-11,0002554209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:13:45.822,19-10-11,0002555709,USBWrite,Datagram write error: 1!
-12:13:45.822,19-10-11,0002555709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:14:01.822,19-10-11,0002557209,USBWrite,Datagram write error: 1!
-12:14:01.822,19-10-11,0002557209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:14:16.822,19-10-11,0002558709,USBWrite,Datagram write error: 1!
-12:14:16.822,19-10-11,0002558709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:14:31.822,19-10-11,0002560209,USBWrite,Datagram write error: 1!
-12:14:31.822,19-10-11,0002560209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:14:47.822,19-10-11,0002561709,USBWrite,Datagram write error: 1!
-12:14:47.822,19-10-11,0002561709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:15:02.822,19-10-11,0002563209,USBWrite,Datagram write error: 1!
-12:15:02.822,19-10-11,0002563209,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:15:18.822,19-10-11,0002564709,USBWrite,Datagram write error: 1!
-12:15:18.822,19-10-11,0002564709,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-12:15:21.692,19-10-11,0002564996,  jUSB01,TI_CN_TR_Reset: Transmit Pipe reset!
-12:15:21.692,19-10-11,0002564996,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
-18:20:15.982,19-10-12,0003219825,USBWrite,Datagram write error: 1!
-18:20:15.982,19-10-12,0003219825,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:20:30.982,19-10-12,0003221325,USBWrite,Datagram write error: 1!
-18:20:30.982,19-10-12,0003221325,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:20:42.742,19-10-12,0003222501, USBREAD,TI_CN_TR_Reset: Transmit Pipe reset!
-18:20:47.022,19-10-12,0003222829,  jUSB01,TI_CN_TR_Reset: Transmit Pipe reset!
-18:20:47.032,19-10-12,0003222830,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
-18:20:43.742,19-10-12,0003222977, TSK002E,TI_NN_Login(): username and password invalid.
-19:29:53.262,19-10-12,0003627529,  jUSB01,TI_CN_TR_Reset: Transmit Pipe reset!
-19:29:53.282,19-10-12,0003627531,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
-19:29:53.292,19-10-12,0003627532, TSK002F,WS_IO_StreamListen(): TI_CN_ERR_STREAM_DISCONNECT on node 100.0
-19:29:53.292,19-10-12,0003627532,sm_Conne,DestroyStreamListener(): freeing (119DB490)
-21:51:58.092,19-10-12,0003747512, USBREAD,TI_CN_TR_Reset: Transmit Pipe reset!
-21:51:57.559,19-10-12,0003747534, TSK002E,TI_NN_Login(): username and password invalid.
-23:43:47.529,19-10-12,0004401831,  jUSB01,TI_CN_TR_Reset: Transmit Pipe reset!
-23:43:47.539,19-10-12,0004401832,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
-23:43:46.549,19-10-12,0004401833, TSK002F,WS_IO_StreamListen(): TI_CN_ERR_STREAM_DISCONNECT on node 100.0
-23:43:46.549,19-10-12,0004401833,sm_Conne,DestroyStreamListener(): freeing (119D2CF4)
-10:23:13.889,19-10-13,0004451767,USBWrite,Datagram write error: 1!
-10:23:13.889,19-10-13,0004451767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:23:28.889,19-10-13,0004453267,USBWrite,Datagram write error: 1!
-10:23:28.889,19-10-13,0004453267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:23:44.889,19-10-13,0004454767,USBWrite,Datagram write error: 1!
-10:23:44.889,19-10-13,0004454767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:23:59.889,19-10-13,0004456267,USBWrite,Datagram write error: 1!
-10:23:59.889,19-10-13,0004456267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:24:14.889,19-10-13,0004457767,USBWrite,Datagram write error: 1!
-10:24:14.889,19-10-13,0004457767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:24:30.889,19-10-13,0004459267,USBWrite,Datagram write error: 1!
-10:24:30.889,19-10-13,0004459267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:24:45.889,19-10-13,0004460767,USBWrite,Datagram write error: 1!
-10:24:45.889,19-10-13,0004460767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:25:01.889,19-10-13,0004462267,USBWrite,Datagram write error: 1!
-10:25:01.889,19-10-13,0004462267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:25:16.889,19-10-13,0004463767,USBWrite,Datagram write error: 1!
-10:25:16.889,19-10-13,0004463767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:25:31.889,19-10-13,0004465267,USBWrite,Datagram write error: 1!
-10:25:31.889,19-10-13,0004465267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:25:47.889,19-10-13,0004466767,USBWrite,Datagram write error: 1!
-10:25:47.889,19-10-13,0004466767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:26:02.889,19-10-13,0004468267,USBWrite,Datagram write error: 1!
-10:26:02.889,19-10-13,0004468267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:26:18.889,19-10-13,0004469767,USBWrite,Datagram write error: 1!
-10:26:18.889,19-10-13,0004469767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:26:33.889,19-10-13,0004471267,USBWrite,Datagram write error: 1!
-10:26:33.889,19-10-13,0004471267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:26:48.889,19-10-13,0004472767,USBWrite,Datagram write error: 1!
-10:26:48.889,19-10-13,0004472767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:27:04.889,19-10-13,0004474267,USBWrite,Datagram write error: 1!
-10:27:04.889,19-10-13,0004474267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:27:19.889,19-10-13,0004475767,USBWrite,Datagram write error: 1!
-10:27:19.889,19-10-13,0004475767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:27:34.889,19-10-13,0004477267,USBWrite,Datagram write error: 1!
-10:27:34.889,19-10-13,0004477267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:27:50.889,19-10-13,0004478767,USBWrite,Datagram write error: 1!
-10:27:50.889,19-10-13,0004478767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:28:05.889,19-10-13,0004480267,USBWrite,Datagram write error: 1!
-10:28:05.889,19-10-13,0004480267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:28:21.889,19-10-13,0004481767,USBWrite,Datagram write error: 1!
-10:28:21.889,19-10-13,0004481767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:28:36.889,19-10-13,0004483267,USBWrite,Datagram write error: 1!
-10:28:36.889,19-10-13,0004483267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:28:51.889,19-10-13,0004484767,USBWrite,Datagram write error: 1!
-10:28:51.889,19-10-13,0004484767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:29:07.889,19-10-13,0004486267,USBWrite,Datagram write error: 1!
-10:29:07.889,19-10-13,0004486267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:29:22.889,19-10-13,0004487767,USBWrite,Datagram write error: 1!
-10:29:22.889,19-10-13,0004487767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:29:37.889,19-10-13,0004489267,USBWrite,Datagram write error: 1!
-10:29:37.889,19-10-13,0004489267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:29:53.889,19-10-13,0004490767,USBWrite,Datagram write error: 1!
-10:29:53.889,19-10-13,0004490767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:30:08.889,19-10-13,0004492267,USBWrite,Datagram write error: 1!
-10:30:08.889,19-10-13,0004492267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:30:24.889,19-10-13,0004493767,USBWrite,Datagram write error: 1!
-10:30:24.889,19-10-13,0004493767,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:30:39.889,19-10-13,0004495267,USBWrite,Datagram write error: 1!
-10:30:39.889,19-10-13,0004495267,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-10:30:53.163,19-10-13,0004496711, TSK002E,TI_NN_Login(): username and password invalid.
-10:39:28.653,19-10-13,0004546960,sm_power,TI_CN_TR_Reset: Transmit Pipe reset!
-10:39:28.653,19-10-13,0004546960,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
-10:39:28.663,19-10-13,0004546961, TSK002F,WS_IO_StreamListen(): TI_CN_ERR_STREAM_DISCONNECT on node 100.0
-10:39:28.663,19-10-13,0004546961,sm_Conne,DestroyStreamListener(): freeing (119D1FD4)
-11:10:00.463,19-10-13,0004725541, USBREAD,TI_CN_TR_Reset: Transmit Pipe reset!
-11:10:02.043,19-10-13,0004725599, TSK002E,TI_NN_Login(): username and password invalid.
-13:17:00.727,19-10-13,0005468624,sm_power,TI_CN_TR_Reset: Transmit Pipe reset!
-13:17:00.737,19-10-13,0005468625,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
-13:17:00.737,19-10-13,0005468625, TSK002F,WS_IO_StreamListen(): TI_CN_ERR_STREAM_DISCONNECT on node 100.0
-13:17:00.747,19-10-13,0005468626,sm_Conne,DestroyStreamListener(): freeing (119DB490)
-15:26:59.107,19-10-13,0006229062, USBREAD,TI_CN_TR_Reset: Transmit Pipe reset!
-15:26:58.567,19-10-13,0006229108, TSK002E,TI_NN_Login(): username and password invalid.
-16:30:21.357,19-10-13,0006599877,  jUSB01,TI_CN_TR_Reset: Transmit Pipe reset!
-16:30:21.367,19-10-13,0006599878,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
-16:30:21.367,19-10-13,0006599878, TSK002F,WS_IO_StreamListen(): TI_CN_ERR_STREAM_DISCONNECT on node 100.0
-16:30:21.377,19-10-13,0006599879,sm_Conne,DestroyStreamListener(): freeing (119D2CF4)
-16:23:10.417,19-10-19,0010264283,     gui,TI_NN_EnumNodeGetRemoteHost: No Remove Host
-17:11:38.707,19-10-20,0010779512,USBWrite,Datagram write error: 1!
-17:11:38.707,19-10-20,0010779512,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-17:11:51.117,19-10-20,0010780853, USBREAD,TI_CN_TR_Reset: Transmit Pipe reset!
-17:11:45.790,19-10-20,0010780875, TSK002E,TI_NN_Login(): username and password invalid.
-18:19:35.210,19-10-20,0011177717,sm_power,TI_CN_TR_Reset: Transmit Pipe reset!
-18:19:35.210,19-10-20,0011177717,sm_Conne,TI_CN_TR_Reset: Transmit Pipe reset!
-18:19:35.220,19-10-20,0011177718, TSK002F,WS_IO_StreamListen(): TI_CN_ERR_STREAM_DISCONNECT on node 100.0
-18:19:35.220,19-10-20,0011177718,sm_Conne,DestroyStreamListener(): freeing (119D202C)
-18:51:27.560,19-10-20,0011364152,USBWrite,Datagram write error: 1!
-18:51:27.560,19-10-20,0011364152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:51:43.560,19-10-20,0011365652,USBWrite,Datagram write error: 1!
-18:51:43.560,19-10-20,0011365652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:51:58.560,19-10-20,0011367152,USBWrite,Datagram write error: 1!
-18:51:58.560,19-10-20,0011367152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:52:14.560,19-10-20,0011368652,USBWrite,Datagram write error: 1!
-18:52:14.560,19-10-20,0011368652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:52:29.560,19-10-20,0011370152,USBWrite,Datagram write error: 1!
-18:52:29.560,19-10-20,0011370152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:52:44.560,19-10-20,0011371652,USBWrite,Datagram write error: 1!
-18:52:44.560,19-10-20,0011371652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:53:00.560,19-10-20,0011373152,USBWrite,Datagram write error: 1!
-18:53:00.560,19-10-20,0011373152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:53:15.560,19-10-20,0011374652,USBWrite,Datagram write error: 1!
-18:53:15.560,19-10-20,0011374652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:53:31.560,19-10-20,0011376152,USBWrite,Datagram write error: 1!
-18:53:31.560,19-10-20,0011376152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:53:46.560,19-10-20,0011377652,USBWrite,Datagram write error: 1!
-18:53:46.560,19-10-20,0011377652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:54:01.560,19-10-20,0011379152,USBWrite,Datagram write error: 1!
-18:54:01.560,19-10-20,0011379152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:54:17.560,19-10-20,0011380652,USBWrite,Datagram write error: 1!
-18:54:17.560,19-10-20,0011380652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:54:32.560,19-10-20,0011382152,USBWrite,Datagram write error: 1!
-18:54:32.560,19-10-20,0011382152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:54:47.560,19-10-20,0011383652,USBWrite,Datagram write error: 1!
-18:54:47.560,19-10-20,0011383652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:55:03.560,19-10-20,0011385152,USBWrite,Datagram write error: 1!
-18:55:03.560,19-10-20,0011385152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:55:18.560,19-10-20,0011386652,USBWrite,Datagram write error: 1!
-18:55:18.560,19-10-20,0011386652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:55:34.560,19-10-20,0011388152,USBWrite,Datagram write error: 1!
-18:55:34.560,19-10-20,0011388152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:55:49.560,19-10-20,0011389652,USBWrite,Datagram write error: 1!
-18:55:49.560,19-10-20,0011389652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:56:04.560,19-10-20,0011391152,USBWrite,Datagram write error: 1!
-18:56:04.560,19-10-20,0011391152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:56:20.560,19-10-20,0011392652,USBWrite,Datagram write error: 1!
-18:56:20.560,19-10-20,0011392652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:56:35.560,19-10-20,0011394152,USBWrite,Datagram write error: 1!
-18:56:35.560,19-10-20,0011394152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:56:50.560,19-10-20,0011395652,USBWrite,Datagram write error: 1!
-18:56:50.560,19-10-20,0011395652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:57:06.560,19-10-20,0011397152,USBWrite,Datagram write error: 1!
-18:57:06.560,19-10-20,0011397152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:57:21.560,19-10-20,0011398652,USBWrite,Datagram write error: 1!
-18:57:21.560,19-10-20,0011398652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:57:37.560,19-10-20,0011400152,USBWrite,Datagram write error: 1!
-18:57:37.560,19-10-20,0011400152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:57:52.560,19-10-20,0011401652,USBWrite,Datagram write error: 1!
-18:57:52.560,19-10-20,0011401652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:58:07.560,19-10-20,0011403152,USBWrite,Datagram write error: 1!
-18:58:07.560,19-10-20,0011403152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:58:23.560,19-10-20,0011404652,USBWrite,Datagram write error: 1!
-18:58:23.560,19-10-20,0011404652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:58:38.560,19-10-20,0011406152,USBWrite,Datagram write error: 1!
-18:58:38.560,19-10-20,0011406152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:58:54.560,19-10-20,0011407652,USBWrite,Datagram write error: 1!
-18:58:54.560,19-10-20,0011407652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:59:09.560,19-10-20,0011409152,USBWrite,Datagram write error: 1!
-18:59:09.560,19-10-20,0011409152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:59:24.560,19-10-20,0011410652,USBWrite,Datagram write error: 1!
-18:59:24.560,19-10-20,0011410652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:59:40.560,19-10-20,0011412152,USBWrite,Datagram write error: 1!
-18:59:40.560,19-10-20,0011412152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-18:59:55.560,19-10-20,0011413652,USBWrite,Datagram write error: 1!
-18:59:55.560,19-10-20,0011413652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:00:10.560,19-10-20,0011415152,USBWrite,Datagram write error: 1!
-19:00:10.560,19-10-20,0011415152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:00:26.560,19-10-20,0011416652,USBWrite,Datagram write error: 1!
-19:00:26.560,19-10-20,0011416652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:00:41.560,19-10-20,0011418152,USBWrite,Datagram write error: 1!
-19:00:41.560,19-10-20,0011418152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:00:57.560,19-10-20,0011419652,USBWrite,Datagram write error: 1!
-19:00:57.560,19-10-20,0011419652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:01:12.560,19-10-20,0011421152,USBWrite,Datagram write error: 1!
-19:01:12.560,19-10-20,0011421152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:01:27.560,19-10-20,0011422652,USBWrite,Datagram write error: 1!
-19:01:27.560,19-10-20,0011422652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:01:43.560,19-10-20,0011424152,USBWrite,Datagram write error: 1!
-19:01:43.560,19-10-20,0011424152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:01:58.560,19-10-20,0011425652,USBWrite,Datagram write error: 1!
-19:01:58.560,19-10-20,0011425652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:02:13.560,19-10-20,0011427152,USBWrite,Datagram write error: 1!
-19:02:13.560,19-10-20,0011427152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:02:29.560,19-10-20,0011428652,USBWrite,Datagram write error: 1!
-19:02:29.560,19-10-20,0011428652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:02:44.560,19-10-20,0011430152,USBWrite,Datagram write error: 1!
-19:02:44.560,19-10-20,0011430152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:03:00.560,19-10-20,0011431652,USBWrite,Datagram write error: 1!
-19:03:00.560,19-10-20,0011431652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:03:15.560,19-10-20,0011433152,USBWrite,Datagram write error: 1!
-19:03:15.560,19-10-20,0011433152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:03:30.560,19-10-20,0011434652,USBWrite,Datagram write error: 1!
-19:03:30.560,19-10-20,0011434652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:03:46.560,19-10-20,0011436152,USBWrite,Datagram write error: 1!
-19:03:46.560,19-10-20,0011436152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:04:01.560,19-10-20,0011437652,USBWrite,Datagram write error: 1!
-19:04:01.560,19-10-20,0011437652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:04:17.560,19-10-20,0011439152,USBWrite,Datagram write error: 1!
-19:04:17.560,19-10-20,0011439152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:04:32.560,19-10-20,0011440652,USBWrite,Datagram write error: 1!
-19:04:32.560,19-10-20,0011440652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:04:47.560,19-10-20,0011442152,USBWrite,Datagram write error: 1!
-19:04:47.560,19-10-20,0011442152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:05:03.560,19-10-20,0011443652,USBWrite,Datagram write error: 1!
-19:05:03.560,19-10-20,0011443652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:05:18.560,19-10-20,0011445152,USBWrite,Datagram write error: 1!
-19:05:18.560,19-10-20,0011445152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:05:33.560,19-10-20,0011446652,USBWrite,Datagram write error: 1!
-19:05:33.560,19-10-20,0011446652,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:05:49.560,19-10-20,0011448152,USBWrite,Datagram write error: 1!
-19:05:49.560,19-10-20,0011448152,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:06:04.580,19-10-20,0011449654,USBWrite,Datagram write error: 1!
-19:06:04.580,19-10-20,0011449654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:06:20.580,19-10-20,0011451154,USBWrite,Datagram write error: 1!
-19:06:20.580,19-10-20,0011451154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:06:35.580,19-10-20,0011452654,USBWrite,Datagram write error: 1!
-19:06:35.580,19-10-20,0011452654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:06:50.580,19-10-20,0011454154,USBWrite,Datagram write error: 1!
-19:06:50.580,19-10-20,0011454154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:07:06.580,19-10-20,0011455654,USBWrite,Datagram write error: 1!
-19:07:06.580,19-10-20,0011455654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:07:21.580,19-10-20,0011457154,USBWrite,Datagram write error: 1!
-19:07:21.580,19-10-20,0011457154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:07:36.580,19-10-20,0011458654,USBWrite,Datagram write error: 1!
-19:07:36.580,19-10-20,0011458654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:07:52.580,19-10-20,0011460154,USBWrite,Datagram write error: 1!
-19:07:52.580,19-10-20,0011460154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:08:07.580,19-10-20,0011461654,USBWrite,Datagram write error: 1!
-19:08:07.580,19-10-20,0011461654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:08:23.580,19-10-20,0011463154,USBWrite,Datagram write error: 1!
-19:08:23.580,19-10-20,0011463154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:08:38.580,19-10-20,0011464654,USBWrite,Datagram write error: 1!
-19:08:38.580,19-10-20,0011464654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:08:53.580,19-10-20,0011466154,USBWrite,Datagram write error: 1!
-19:08:53.580,19-10-20,0011466154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:09:09.580,19-10-20,0011467654,USBWrite,Datagram write error: 1!
-19:09:09.580,19-10-20,0011467654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:09:24.580,19-10-20,0011469154,USBWrite,Datagram write error: 1!
-19:09:24.580,19-10-20,0011469154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:09:40.580,19-10-20,0011470654,USBWrite,Datagram write error: 1!
-19:09:40.580,19-10-20,0011470654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:09:55.580,19-10-20,0011472154,USBWrite,Datagram write error: 1!
-19:09:55.580,19-10-20,0011472154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:10:10.580,19-10-20,0011473654,USBWrite,Datagram write error: 1!
-19:10:10.580,19-10-20,0011473654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:10:26.580,19-10-20,0011475154,USBWrite,Datagram write error: 1!
-19:10:26.580,19-10-20,0011475154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:10:41.580,19-10-20,0011476654,USBWrite,Datagram write error: 1!
-19:10:41.580,19-10-20,0011476654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:10:56.580,19-10-20,0011478154,USBWrite,Datagram write error: 1!
-19:10:56.580,19-10-20,0011478154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:11:12.580,19-10-20,0011479654,USBWrite,Datagram write error: 1!
-19:11:12.580,19-10-20,0011479654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:11:27.580,19-10-20,0011481154,USBWrite,Datagram write error: 1!
-19:11:27.580,19-10-20,0011481154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:11:43.580,19-10-20,0011482654,USBWrite,Datagram write error: 1!
-19:11:43.580,19-10-20,0011482654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:11:58.580,19-10-20,0011484154,USBWrite,Datagram write error: 1!
-19:11:58.580,19-10-20,0011484154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:12:13.580,19-10-20,0011485654,USBWrite,Datagram write error: 1!
-19:12:13.580,19-10-20,0011485654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:12:29.580,19-10-20,0011487154,USBWrite,Datagram write error: 1!
-19:12:29.580,19-10-20,0011487154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:12:44.580,19-10-20,0011488654,USBWrite,Datagram write error: 1!
-19:12:44.580,19-10-20,0011488654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:12:59.580,19-10-20,0011490154,USBWrite,Datagram write error: 1!
-19:12:59.580,19-10-20,0011490154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:13:15.580,19-10-20,0011491654,USBWrite,Datagram write error: 1!
-19:13:15.580,19-10-20,0011491654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:13:30.580,19-10-20,0011493154,USBWrite,Datagram write error: 1!
-19:13:30.580,19-10-20,0011493154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:13:46.580,19-10-20,0011494654,USBWrite,Datagram write error: 1!
-19:13:46.580,19-10-20,0011494654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:14:01.580,19-10-20,0011496154,USBWrite,Datagram write error: 1!
-19:14:01.580,19-10-20,0011496154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:14:16.580,19-10-20,0011497654,USBWrite,Datagram write error: 1!
-19:14:16.580,19-10-20,0011497654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:14:32.580,19-10-20,0011499154,USBWrite,Datagram write error: 1!
-19:14:32.580,19-10-20,0011499154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:14:47.580,19-10-20,0011500654,USBWrite,Datagram write error: 1!
-19:14:47.580,19-10-20,0011500654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:15:03.580,19-10-20,0011502154,USBWrite,Datagram write error: 1!
-19:15:03.580,19-10-20,0011502154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:15:18.580,19-10-20,0011503654,USBWrite,Datagram write error: 1!
-19:15:18.580,19-10-20,0011503654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:15:33.580,19-10-20,0011505154,USBWrite,Datagram write error: 1!
-19:15:33.580,19-10-20,0011505154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:15:49.580,19-10-20,0011506654,USBWrite,Datagram write error: 1!
-19:15:49.580,19-10-20,0011506654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:16:04.580,19-10-20,0011508154,USBWrite,Datagram write error: 1!
-19:16:04.580,19-10-20,0011508154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:16:19.580,19-10-20,0011509654,USBWrite,Datagram write error: 1!
-19:16:19.580,19-10-20,0011509654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:16:35.580,19-10-20,0011511154,USBWrite,Datagram write error: 1!
-19:16:35.580,19-10-20,0011511154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:16:50.580,19-10-20,0011512654,USBWrite,Datagram write error: 1!
-19:16:50.580,19-10-20,0011512654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:17:06.580,19-10-20,0011514154,USBWrite,Datagram write error: 1!
-19:17:06.580,19-10-20,0011514154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:17:21.580,19-10-20,0011515654,USBWrite,Datagram write error: 1!
-19:17:21.580,19-10-20,0011515654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:17:36.580,19-10-20,0011517154,USBWrite,Datagram write error: 1!
-19:17:36.580,19-10-20,0011517154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:17:52.580,19-10-20,0011518654,USBWrite,Datagram write error: 1!
-19:17:52.580,19-10-20,0011518654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:18:07.580,19-10-20,0011520154,USBWrite,Datagram write error: 1!
-19:18:07.580,19-10-20,0011520154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:18:22.580,19-10-20,0011521654,USBWrite,Datagram write error: 1!
-19:18:22.580,19-10-20,0011521654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:18:38.580,19-10-20,0011523154,USBWrite,Datagram write error: 1!
-19:18:38.580,19-10-20,0011523154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:18:53.580,19-10-20,0011524654,USBWrite,Datagram write error: 1!
-19:18:53.580,19-10-20,0011524654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:19:09.580,19-10-20,0011526154,USBWrite,Datagram write error: 1!
-19:19:09.580,19-10-20,0011526154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:19:24.580,19-10-20,0011527654,USBWrite,Datagram write error: 1!
-19:19:24.580,19-10-20,0011527654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:19:39.580,19-10-20,0011529154,USBWrite,Datagram write error: 1!
-19:19:39.580,19-10-20,0011529154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:19:55.580,19-10-20,0011530654,USBWrite,Datagram write error: 1!
-19:19:55.580,19-10-20,0011530654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:20:10.580,19-10-20,0011532154,USBWrite,Datagram write error: 1!
-19:20:10.580,19-10-20,0011532154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:20:26.580,19-10-20,0011533654,USBWrite,Datagram write error: 1!
-19:20:26.580,19-10-20,0011533654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:20:41.580,19-10-20,0011535154,USBWrite,Datagram write error: 1!
-19:20:41.580,19-10-20,0011535154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:20:56.580,19-10-20,0011536654,USBWrite,Datagram write error: 1!
-19:20:56.580,19-10-20,0011536654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:21:12.580,19-10-20,0011538154,USBWrite,Datagram write error: 1!
-19:21:12.580,19-10-20,0011538154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:21:27.580,19-10-20,0011539654,USBWrite,Datagram write error: 1!
-19:21:27.580,19-10-20,0011539654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:21:42.580,19-10-20,0011541154,USBWrite,Datagram write error: 1!
-19:21:42.580,19-10-20,0011541154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:21:58.580,19-10-20,0011542654,USBWrite,Datagram write error: 1!
-19:21:58.580,19-10-20,0011542654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:22:13.580,19-10-20,0011544154,USBWrite,Datagram write error: 1!
-19:22:13.580,19-10-20,0011544154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:22:29.580,19-10-20,0011545654,USBWrite,Datagram write error: 1!
-19:22:29.580,19-10-20,0011545654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:22:44.580,19-10-20,0011547154,USBWrite,Datagram write error: 1!
-19:22:44.580,19-10-20,0011547154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:22:59.580,19-10-20,0011548654,USBWrite,Datagram write error: 1!
-19:22:59.580,19-10-20,0011548654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:23:15.580,19-10-20,0011550154,USBWrite,Datagram write error: 1!
-19:23:15.580,19-10-20,0011550154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:23:30.580,19-10-20,0011551654,USBWrite,Datagram write error: 1!
-19:23:30.580,19-10-20,0011551654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:23:45.580,19-10-20,0011553154,USBWrite,Datagram write error: 1!
-19:23:45.580,19-10-20,0011553154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:24:01.580,19-10-20,0011554654,USBWrite,Datagram write error: 1!
-19:24:01.580,19-10-20,0011554654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:24:16.580,19-10-20,0011556154,USBWrite,Datagram write error: 1!
-19:24:16.580,19-10-20,0011556154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:24:32.580,19-10-20,0011557654,USBWrite,Datagram write error: 1!
-19:24:32.580,19-10-20,0011557654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:24:47.580,19-10-20,0011559154,USBWrite,Datagram write error: 1!
-19:24:47.580,19-10-20,0011559154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:25:02.580,19-10-20,0011560654,USBWrite,Datagram write error: 1!
-19:25:02.580,19-10-20,0011560654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:25:18.580,19-10-20,0011562154,USBWrite,Datagram write error: 1!
-19:25:18.580,19-10-20,0011562154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:25:33.580,19-10-20,0011563654,USBWrite,Datagram write error: 1!
-19:25:33.580,19-10-20,0011563654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:25:49.580,19-10-20,0011565154,USBWrite,Datagram write error: 1!
-19:25:49.580,19-10-20,0011565154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:26:04.580,19-10-20,0011566654,USBWrite,Datagram write error: 1!
-19:26:04.580,19-10-20,0011566654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:26:19.580,19-10-20,0011568154,USBWrite,Datagram write error: 1!
-19:26:19.580,19-10-20,0011568154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:26:35.580,19-10-20,0011569654,USBWrite,Datagram write error: 1!
-19:26:35.580,19-10-20,0011569654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:26:50.580,19-10-20,0011571154,USBWrite,Datagram write error: 1!
-19:26:50.580,19-10-20,0011571154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:27:05.580,19-10-20,0011572654,USBWrite,Datagram write error: 1!
-19:27:05.580,19-10-20,0011572654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:27:21.580,19-10-20,0011574154,USBWrite,Datagram write error: 1!
-19:27:21.580,19-10-20,0011574154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:27:36.580,19-10-20,0011575654,USBWrite,Datagram write error: 1!
-19:27:36.580,19-10-20,0011575654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:27:52.580,19-10-20,0011577154,USBWrite,Datagram write error: 1!
-19:27:52.580,19-10-20,0011577154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:28:07.580,19-10-20,0011578654,USBWrite,Datagram write error: 1!
-19:28:07.580,19-10-20,0011578654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:28:22.580,19-10-20,0011580154,USBWrite,Datagram write error: 1!
-19:28:22.580,19-10-20,0011580154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:28:38.580,19-10-20,0011581654,USBWrite,Datagram write error: 1!
-19:28:38.580,19-10-20,0011581654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:28:53.580,19-10-20,0011583154,USBWrite,Datagram write error: 1!
-19:28:53.580,19-10-20,0011583154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:29:08.580,19-10-20,0011584654,USBWrite,Datagram write error: 1!
-19:29:08.580,19-10-20,0011584654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:29:24.580,19-10-20,0011586154,USBWrite,Datagram write error: 1!
-19:29:24.580,19-10-20,0011586154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:29:39.580,19-10-20,0011587654,USBWrite,Datagram write error: 1!
-19:29:39.580,19-10-20,0011587654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:29:55.580,19-10-20,0011589154,USBWrite,Datagram write error: 1!
-19:29:55.580,19-10-20,0011589154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:30:10.580,19-10-20,0011590654,USBWrite,Datagram write error: 1!
-19:30:10.580,19-10-20,0011590654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:30:25.580,19-10-20,0011592154,USBWrite,Datagram write error: 1!
-19:30:25.580,19-10-20,0011592154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:30:41.580,19-10-20,0011593654,USBWrite,Datagram write error: 1!
-19:30:41.580,19-10-20,0011593654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:30:56.580,19-10-20,0011595154,USBWrite,Datagram write error: 1!
-19:30:56.580,19-10-20,0011595154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:31:12.580,19-10-20,0011596654,USBWrite,Datagram write error: 1!
-19:31:12.580,19-10-20,0011596654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:31:27.580,19-10-20,0011598154,USBWrite,Datagram write error: 1!
-19:31:27.580,19-10-20,0011598154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:31:42.580,19-10-20,0011599654,USBWrite,Datagram write error: 1!
-19:31:42.580,19-10-20,0011599654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:31:58.580,19-10-20,0011601154,USBWrite,Datagram write error: 1!
-19:31:58.580,19-10-20,0011601154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:32:13.580,19-10-20,0011602654,USBWrite,Datagram write error: 1!
-19:32:13.580,19-10-20,0011602654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:32:28.580,19-10-20,0011604154,USBWrite,Datagram write error: 1!
-19:32:28.580,19-10-20,0011604154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:32:44.580,19-10-20,0011605654,USBWrite,Datagram write error: 1!
-19:32:44.580,19-10-20,0011605654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:32:59.580,19-10-20,0011607154,USBWrite,Datagram write error: 1!
-19:32:59.580,19-10-20,0011607154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:33:15.580,19-10-20,0011608654,USBWrite,Datagram write error: 1!
-19:33:15.580,19-10-20,0011608654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:33:30.580,19-10-20,0011610154,USBWrite,Datagram write error: 1!
-19:33:30.580,19-10-20,0011610154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:33:45.580,19-10-20,0011611654,USBWrite,Datagram write error: 1!
-19:33:45.580,19-10-20,0011611654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:34:01.580,19-10-20,0011613154,USBWrite,Datagram write error: 1!
-19:34:01.580,19-10-20,0011613154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:34:16.580,19-10-20,0011614654,USBWrite,Datagram write error: 1!
-19:34:16.580,19-10-20,0011614654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:34:31.580,19-10-20,0011616154,USBWrite,Datagram write error: 1!
-19:34:31.580,19-10-20,0011616154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:34:47.580,19-10-20,0011617654,USBWrite,Datagram write error: 1!
-19:34:47.580,19-10-20,0011617654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:35:02.580,19-10-20,0011619154,USBWrite,Datagram write error: 1!
-19:35:02.580,19-10-20,0011619154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:35:18.580,19-10-20,0011620654,USBWrite,Datagram write error: 1!
-19:35:18.580,19-10-20,0011620654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:35:33.580,19-10-20,0011622154,USBWrite,Datagram write error: 1!
-19:35:33.580,19-10-20,0011622154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:35:48.580,19-10-20,0011623654,USBWrite,Datagram write error: 1!
-19:35:48.580,19-10-20,0011623654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:36:04.580,19-10-20,0011625154,USBWrite,Datagram write error: 1!
-19:36:04.580,19-10-20,0011625154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:36:19.580,19-10-20,0011626654,USBWrite,Datagram write error: 1!
-19:36:19.580,19-10-20,0011626654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:36:35.580,19-10-20,0011628154,USBWrite,Datagram write error: 1!
-19:36:35.580,19-10-20,0011628154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:36:50.580,19-10-20,0011629654,USBWrite,Datagram write error: 1!
-19:36:50.580,19-10-20,0011629654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:37:05.580,19-10-20,0011631154,USBWrite,Datagram write error: 1!
-19:37:05.580,19-10-20,0011631154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:37:21.580,19-10-20,0011632654,USBWrite,Datagram write error: 1!
-19:37:21.580,19-10-20,0011632654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:37:36.580,19-10-20,0011634154,USBWrite,Datagram write error: 1!
-19:37:36.580,19-10-20,0011634154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:37:51.580,19-10-20,0011635654,USBWrite,Datagram write error: 1!
-19:37:51.580,19-10-20,0011635654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:38:07.580,19-10-20,0011637154,USBWrite,Datagram write error: 1!
-19:38:07.580,19-10-20,0011637154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:38:22.580,19-10-20,0011638654,USBWrite,Datagram write error: 1!
-19:38:22.580,19-10-20,0011638654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:38:38.580,19-10-20,0011640154,USBWrite,Datagram write error: 1!
-19:38:38.580,19-10-20,0011640154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:38:53.580,19-10-20,0011641654,USBWrite,Datagram write error: 1!
-19:38:53.580,19-10-20,0011641654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:39:08.580,19-10-20,0011643154,USBWrite,Datagram write error: 1!
-19:39:08.580,19-10-20,0011643154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:39:24.580,19-10-20,0011644654,USBWrite,Datagram write error: 1!
-19:39:24.580,19-10-20,0011644654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:39:39.580,19-10-20,0011646154,USBWrite,Datagram write error: 1!
-19:39:39.580,19-10-20,0011646154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:39:54.580,19-10-20,0011647654,USBWrite,Datagram write error: 1!
-19:39:54.580,19-10-20,0011647654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:40:10.580,19-10-20,0011649154,USBWrite,Datagram write error: 1!
-19:40:10.580,19-10-20,0011649154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:40:25.580,19-10-20,0011650654,USBWrite,Datagram write error: 1!
-19:40:25.580,19-10-20,0011650654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:40:41.580,19-10-20,0011652154,USBWrite,Datagram write error: 1!
-19:40:41.580,19-10-20,0011652154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:40:56.580,19-10-20,0011653654,USBWrite,Datagram write error: 1!
-19:40:56.580,19-10-20,0011653654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:41:11.580,19-10-20,0011655154,USBWrite,Datagram write error: 1!
-19:41:11.580,19-10-20,0011655154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:41:27.580,19-10-20,0011656654,USBWrite,Datagram write error: 1!
-19:41:27.580,19-10-20,0011656654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:41:42.580,19-10-20,0011658154,USBWrite,Datagram write error: 1!
-19:41:42.580,19-10-20,0011658154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:41:58.580,19-10-20,0011659654,USBWrite,Datagram write error: 1!
-19:41:58.580,19-10-20,0011659654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:42:13.580,19-10-20,0011661154,USBWrite,Datagram write error: 1!
-19:42:13.580,19-10-20,0011661154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:42:28.580,19-10-20,0011662654,USBWrite,Datagram write error: 1!
-19:42:28.580,19-10-20,0011662654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:42:44.580,19-10-20,0011664154,USBWrite,Datagram write error: 1!
-19:42:44.580,19-10-20,0011664154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:42:59.580,19-10-20,0011665654,USBWrite,Datagram write error: 1!
-19:42:59.580,19-10-20,0011665654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:43:14.580,19-10-20,0011667154,USBWrite,Datagram write error: 1!
-19:43:14.580,19-10-20,0011667154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:43:30.580,19-10-20,0011668654,USBWrite,Datagram write error: 1!
-19:43:30.580,19-10-20,0011668654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:43:45.580,19-10-20,0011670154,USBWrite,Datagram write error: 1!
-19:43:45.580,19-10-20,0011670154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:44:01.580,19-10-20,0011671654,USBWrite,Datagram write error: 1!
-19:44:01.580,19-10-20,0011671654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:44:16.580,19-10-20,0011673154,USBWrite,Datagram write error: 1!
-19:44:16.580,19-10-20,0011673154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:44:31.580,19-10-20,0011674654,USBWrite,Datagram write error: 1!
-19:44:31.580,19-10-20,0011674654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:44:47.580,19-10-20,0011676154,USBWrite,Datagram write error: 1!
-19:44:47.580,19-10-20,0011676154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:45:02.580,19-10-20,0011677654,USBWrite,Datagram write error: 1!
-19:45:02.580,19-10-20,0011677654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:45:17.580,19-10-20,0011679154,USBWrite,Datagram write error: 1!
-19:45:17.580,19-10-20,0011679154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:45:33.580,19-10-20,0011680654,USBWrite,Datagram write error: 1!
-19:45:33.580,19-10-20,0011680654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:45:48.580,19-10-20,0011682154,USBWrite,Datagram write error: 1!
-19:45:48.580,19-10-20,0011682154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:46:04.580,19-10-20,0011683654,USBWrite,Datagram write error: 1!
-19:46:04.580,19-10-20,0011683654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:46:19.580,19-10-20,0011685154,USBWrite,Datagram write error: 1!
-19:46:19.580,19-10-20,0011685154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:46:34.580,19-10-20,0011686654,USBWrite,Datagram write error: 1!
-19:46:34.580,19-10-20,0011686654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:46:50.580,19-10-20,0011688154,USBWrite,Datagram write error: 1!
-19:46:50.580,19-10-20,0011688154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:47:05.580,19-10-20,0011689654,USBWrite,Datagram write error: 1!
-19:47:05.580,19-10-20,0011689654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:47:21.580,19-10-20,0011691154,USBWrite,Datagram write error: 1!
-19:47:21.580,19-10-20,0011691154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:47:36.580,19-10-20,0011692654,USBWrite,Datagram write error: 1!
-19:47:36.580,19-10-20,0011692654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:47:51.580,19-10-20,0011694154,USBWrite,Datagram write error: 1!
-19:47:51.580,19-10-20,0011694154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:48:07.580,19-10-20,0011695654,USBWrite,Datagram write error: 1!
-19:48:07.580,19-10-20,0011695654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:48:22.580,19-10-20,0011697154,USBWrite,Datagram write error: 1!
-19:48:22.580,19-10-20,0011697154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:48:37.580,19-10-20,0011698654,USBWrite,Datagram write error: 1!
-19:48:37.580,19-10-20,0011698654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:48:53.580,19-10-20,0011700154,USBWrite,Datagram write error: 1!
-19:48:53.580,19-10-20,0011700154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:49:08.580,19-10-20,0011701654,USBWrite,Datagram write error: 1!
-19:49:08.580,19-10-20,0011701654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:49:24.580,19-10-20,0011703154,USBWrite,Datagram write error: 1!
-19:49:24.580,19-10-20,0011703154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:49:39.580,19-10-20,0011704654,USBWrite,Datagram write error: 1!
-19:49:39.580,19-10-20,0011704654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:49:54.580,19-10-20,0011706154,USBWrite,Datagram write error: 1!
-19:49:54.580,19-10-20,0011706154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:50:10.580,19-10-20,0011707654,USBWrite,Datagram write error: 1!
-19:50:10.580,19-10-20,0011707654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:50:25.580,19-10-20,0011709154,USBWrite,Datagram write error: 1!
-19:50:25.580,19-10-20,0011709154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:50:40.580,19-10-20,0011710654,USBWrite,Datagram write error: 1!
-19:50:40.580,19-10-20,0011710654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:50:56.580,19-10-20,0011712154,USBWrite,Datagram write error: 1!
-19:50:56.580,19-10-20,0011712154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:51:11.580,19-10-20,0011713654,USBWrite,Datagram write error: 1!
-19:51:11.580,19-10-20,0011713654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:51:27.580,19-10-20,0011715154,USBWrite,Datagram write error: 1!
-19:51:27.580,19-10-20,0011715154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:51:42.580,19-10-20,0011716654,USBWrite,Datagram write error: 1!
-19:51:42.580,19-10-20,0011716654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:51:57.580,19-10-20,0011718154,USBWrite,Datagram write error: 1!
-19:51:57.580,19-10-20,0011718154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:52:13.580,19-10-20,0011719654,USBWrite,Datagram write error: 1!
-19:52:13.580,19-10-20,0011719654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:52:28.580,19-10-20,0011721154,USBWrite,Datagram write error: 1!
-19:52:28.580,19-10-20,0011721154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:52:44.580,19-10-20,0011722654,USBWrite,Datagram write error: 1!
-19:52:44.580,19-10-20,0011722654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:52:59.580,19-10-20,0011724154,USBWrite,Datagram write error: 1!
-19:52:59.580,19-10-20,0011724154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:53:14.580,19-10-20,0011725654,USBWrite,Datagram write error: 1!
-19:53:14.580,19-10-20,0011725654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:53:30.580,19-10-20,0011727154,USBWrite,Datagram write error: 1!
-19:53:30.580,19-10-20,0011727154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:53:45.580,19-10-20,0011728654,USBWrite,Datagram write error: 1!
-19:53:45.580,19-10-20,0011728654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:54:00.580,19-10-20,0011730154,USBWrite,Datagram write error: 1!
-19:54:00.580,19-10-20,0011730154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:54:16.580,19-10-20,0011731654,USBWrite,Datagram write error: 1!
-19:54:16.580,19-10-20,0011731654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:54:31.580,19-10-20,0011733154,USBWrite,Datagram write error: 1!
-19:54:31.580,19-10-20,0011733154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:54:47.580,19-10-20,0011734654,USBWrite,Datagram write error: 1!
-19:54:47.580,19-10-20,0011734654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:55:02.580,19-10-20,0011736154,USBWrite,Datagram write error: 1!
-19:55:02.580,19-10-20,0011736154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:55:17.580,19-10-20,0011737654,USBWrite,Datagram write error: 1!
-19:55:17.580,19-10-20,0011737654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:55:33.580,19-10-20,0011739154,USBWrite,Datagram write error: 1!
-19:55:33.580,19-10-20,0011739154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:55:48.580,19-10-20,0011740654,USBWrite,Datagram write error: 1!
-19:55:48.580,19-10-20,0011740654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:56:03.580,19-10-20,0011742154,USBWrite,Datagram write error: 1!
-19:56:03.580,19-10-20,0011742154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:56:19.580,19-10-20,0011743654,USBWrite,Datagram write error: 1!
-19:56:19.580,19-10-20,0011743654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:56:34.580,19-10-20,0011745154,USBWrite,Datagram write error: 1!
-19:56:34.580,19-10-20,0011745154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:56:50.580,19-10-20,0011746654,USBWrite,Datagram write error: 1!
-19:56:50.580,19-10-20,0011746654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:57:05.580,19-10-20,0011748154,USBWrite,Datagram write error: 1!
-19:57:05.580,19-10-20,0011748154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:57:20.580,19-10-20,0011749654,USBWrite,Datagram write error: 1!
-19:57:20.580,19-10-20,0011749654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:57:36.580,19-10-20,0011751154,USBWrite,Datagram write error: 1!
-19:57:36.580,19-10-20,0011751154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:57:51.580,19-10-20,0011752654,USBWrite,Datagram write error: 1!
-19:57:51.580,19-10-20,0011752654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:58:07.580,19-10-20,0011754154,USBWrite,Datagram write error: 1!
-19:58:07.580,19-10-20,0011754154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:58:22.580,19-10-20,0011755654,USBWrite,Datagram write error: 1!
-19:58:22.580,19-10-20,0011755654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:58:37.580,19-10-20,0011757154,USBWrite,Datagram write error: 1!
-19:58:37.580,19-10-20,0011757154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:58:53.580,19-10-20,0011758654,USBWrite,Datagram write error: 1!
-19:58:53.580,19-10-20,0011758654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:59:08.580,19-10-20,0011760154,USBWrite,Datagram write error: 1!
-19:59:08.580,19-10-20,0011760154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:59:23.580,19-10-20,0011761654,USBWrite,Datagram write error: 1!
-19:59:23.580,19-10-20,0011761654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:59:39.580,19-10-20,0011763154,USBWrite,Datagram write error: 1!
-19:59:39.580,19-10-20,0011763154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-19:59:54.580,19-10-20,0011764654,USBWrite,Datagram write error: 1!
-19:59:54.580,19-10-20,0011764654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:00:10.580,19-10-20,0011766154,USBWrite,Datagram write error: 1!
-20:00:10.580,19-10-20,0011766154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:00:25.580,19-10-20,0011767654,USBWrite,Datagram write error: 1!
-20:00:25.580,19-10-20,0011767654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:00:40.580,19-10-20,0011769154,USBWrite,Datagram write error: 1!
-20:00:40.580,19-10-20,0011769154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:00:56.580,19-10-20,0011770654,USBWrite,Datagram write error: 1!
-20:00:56.580,19-10-20,0011770654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:01:11.580,19-10-20,0011772154,USBWrite,Datagram write error: 1!
-20:01:11.580,19-10-20,0011772154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:01:26.580,19-10-20,0011773654,USBWrite,Datagram write error: 1!
-20:01:26.580,19-10-20,0011773654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:01:42.580,19-10-20,0011775154,USBWrite,Datagram write error: 1!
-20:01:42.580,19-10-20,0011775154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:01:57.580,19-10-20,0011776654,USBWrite,Datagram write error: 1!
-20:01:57.580,19-10-20,0011776654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:02:13.580,19-10-20,0011778154,USBWrite,Datagram write error: 1!
-20:02:13.580,19-10-20,0011778154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:02:28.580,19-10-20,0011779654,USBWrite,Datagram write error: 1!
-20:02:28.580,19-10-20,0011779654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:02:43.580,19-10-20,0011781154,USBWrite,Datagram write error: 1!
-20:02:43.580,19-10-20,0011781154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:02:59.580,19-10-20,0011782654,USBWrite,Datagram write error: 1!
-20:02:59.580,19-10-20,0011782654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:03:14.580,19-10-20,0011784154,USBWrite,Datagram write error: 1!
-20:03:14.580,19-10-20,0011784154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:03:30.580,19-10-20,0011785654,USBWrite,Datagram write error: 1!
-20:03:30.580,19-10-20,0011785654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:03:45.580,19-10-20,0011787154,USBWrite,Datagram write error: 1!
-20:03:45.580,19-10-20,0011787154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:04:00.580,19-10-20,0011788654,USBWrite,Datagram write error: 1!
-20:04:00.580,19-10-20,0011788654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:04:16.580,19-10-20,0011790154,USBWrite,Datagram write error: 1!
-20:04:16.580,19-10-20,0011790154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:04:31.580,19-10-20,0011791654,USBWrite,Datagram write error: 1!
-20:04:31.580,19-10-20,0011791654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:04:46.580,19-10-20,0011793154,USBWrite,Datagram write error: 1!
-20:04:46.580,19-10-20,0011793154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:05:02.580,19-10-20,0011794654,USBWrite,Datagram write error: 1!
-20:05:02.580,19-10-20,0011794654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:05:17.580,19-10-20,0011796154,USBWrite,Datagram write error: 1!
-20:05:17.580,19-10-20,0011796154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:05:33.580,19-10-20,0011797654,USBWrite,Datagram write error: 1!
-20:05:33.580,19-10-20,0011797654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:05:48.580,19-10-20,0011799154,USBWrite,Datagram write error: 1!
-20:05:48.580,19-10-20,0011799154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:06:03.580,19-10-20,0011800654,USBWrite,Datagram write error: 1!
-20:06:03.580,19-10-20,0011800654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:06:19.580,19-10-20,0011802154,USBWrite,Datagram write error: 1!
-20:06:19.580,19-10-20,0011802154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:06:34.580,19-10-20,0011803654,USBWrite,Datagram write error: 1!
-20:06:34.580,19-10-20,0011803654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:06:49.580,19-10-20,0011805154,USBWrite,Datagram write error: 1!
-20:06:49.580,19-10-20,0011805154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:07:05.580,19-10-20,0011806654,USBWrite,Datagram write error: 1!
-20:07:05.580,19-10-20,0011806654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:07:20.580,19-10-20,0011808154,USBWrite,Datagram write error: 1!
-20:07:20.580,19-10-20,0011808154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:07:36.580,19-10-20,0011809654,USBWrite,Datagram write error: 1!
-20:07:36.580,19-10-20,0011809654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:07:51.580,19-10-20,0011811154,USBWrite,Datagram write error: 1!
-20:07:51.580,19-10-20,0011811154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:08:06.580,19-10-20,0011812654,USBWrite,Datagram write error: 1!
-20:08:06.580,19-10-20,0011812654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:08:22.580,19-10-20,0011814154,USBWrite,Datagram write error: 1!
-20:08:22.580,19-10-20,0011814154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:08:37.580,19-10-20,0011815654,USBWrite,Datagram write error: 1!
-20:08:37.580,19-10-20,0011815654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:08:53.580,19-10-20,0011817154,USBWrite,Datagram write error: 1!
-20:08:53.580,19-10-20,0011817154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:09:08.580,19-10-20,0011818654,USBWrite,Datagram write error: 1!
-20:09:08.580,19-10-20,0011818654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:09:23.580,19-10-20,0011820154,USBWrite,Datagram write error: 1!
-20:09:23.580,19-10-20,0011820154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:09:39.580,19-10-20,0011821654,USBWrite,Datagram write error: 1!
-20:09:39.580,19-10-20,0011821654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:09:54.580,19-10-20,0011823154,USBWrite,Datagram write error: 1!
-20:09:54.580,19-10-20,0011823154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:10:09.580,19-10-20,0011824654,USBWrite,Datagram write error: 1!
-20:10:09.580,19-10-20,0011824654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:10:25.580,19-10-20,0011826154,USBWrite,Datagram write error: 1!
-20:10:25.580,19-10-20,0011826154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:10:40.580,19-10-20,0011827654,USBWrite,Datagram write error: 1!
-20:10:40.580,19-10-20,0011827654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:10:56.580,19-10-20,0011829154,USBWrite,Datagram write error: 1!
-20:10:56.580,19-10-20,0011829154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:11:11.580,19-10-20,0011830654,USBWrite,Datagram write error: 1!
-20:11:11.580,19-10-20,0011830654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:11:26.580,19-10-20,0011832154,USBWrite,Datagram write error: 1!
-20:11:26.580,19-10-20,0011832154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:11:42.580,19-10-20,0011833654,USBWrite,Datagram write error: 1!
-20:11:42.580,19-10-20,0011833654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:11:57.580,19-10-20,0011835154,USBWrite,Datagram write error: 1!
-20:11:57.580,19-10-20,0011835154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:12:12.580,19-10-20,0011836654,USBWrite,Datagram write error: 1!
-20:12:12.580,19-10-20,0011836654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:12:28.580,19-10-20,0011838154,USBWrite,Datagram write error: 1!
-20:12:28.580,19-10-20,0011838154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:12:43.580,19-10-20,0011839654,USBWrite,Datagram write error: 1!
-20:12:43.580,19-10-20,0011839654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:12:59.580,19-10-20,0011841154,USBWrite,Datagram write error: 1!
-20:12:59.580,19-10-20,0011841154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:13:14.580,19-10-20,0011842654,USBWrite,Datagram write error: 1!
-20:13:14.580,19-10-20,0011842654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:13:29.580,19-10-20,0011844154,USBWrite,Datagram write error: 1!
-20:13:29.580,19-10-20,0011844154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:13:45.580,19-10-20,0011845654,USBWrite,Datagram write error: 1!
-20:13:45.580,19-10-20,0011845654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:14:00.580,19-10-20,0011847154,USBWrite,Datagram write error: 1!
-20:14:00.580,19-10-20,0011847154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:14:16.580,19-10-20,0011848654,USBWrite,Datagram write error: 1!
-20:14:16.580,19-10-20,0011848654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:14:31.580,19-10-20,0011850154,USBWrite,Datagram write error: 1!
-20:14:31.580,19-10-20,0011850154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:14:46.580,19-10-20,0011851654,USBWrite,Datagram write error: 1!
-20:14:46.580,19-10-20,0011851654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:15:02.580,19-10-20,0011853154,USBWrite,Datagram write error: 1!
-20:15:02.580,19-10-20,0011853154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:15:17.580,19-10-20,0011854654,USBWrite,Datagram write error: 1!
-20:15:17.580,19-10-20,0011854654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:15:32.580,19-10-20,0011856154,USBWrite,Datagram write error: 1!
-20:15:32.580,19-10-20,0011856154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:15:48.580,19-10-20,0011857654,USBWrite,Datagram write error: 1!
-20:15:48.580,19-10-20,0011857654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:16:03.580,19-10-20,0011859154,USBWrite,Datagram write error: 1!
-20:16:03.580,19-10-20,0011859154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:16:19.580,19-10-20,0011860654,USBWrite,Datagram write error: 1!
-20:16:19.580,19-10-20,0011860654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:16:34.580,19-10-20,0011862154,USBWrite,Datagram write error: 1!
-20:16:34.580,19-10-20,0011862154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:16:49.580,19-10-20,0011863654,USBWrite,Datagram write error: 1!
-20:16:49.580,19-10-20,0011863654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:17:05.580,19-10-20,0011865154,USBWrite,Datagram write error: 1!
-20:17:05.580,19-10-20,0011865154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:17:20.580,19-10-20,0011866654,USBWrite,Datagram write error: 1!
-20:17:20.580,19-10-20,0011866654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:17:35.580,19-10-20,0011868154,USBWrite,Datagram write error: 1!
-20:17:35.580,19-10-20,0011868154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:17:51.580,19-10-20,0011869654,USBWrite,Datagram write error: 1!
-20:17:51.580,19-10-20,0011869654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:18:06.580,19-10-20,0011871154,USBWrite,Datagram write error: 1!
-20:18:06.580,19-10-20,0011871154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:18:22.580,19-10-20,0011872654,USBWrite,Datagram write error: 1!
-20:18:22.580,19-10-20,0011872654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:18:37.580,19-10-20,0011874154,USBWrite,Datagram write error: 1!
-20:18:37.580,19-10-20,0011874154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:18:52.580,19-10-20,0011875654,USBWrite,Datagram write error: 1!
-20:18:52.580,19-10-20,0011875654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:19:08.580,19-10-20,0011877154,USBWrite,Datagram write error: 1!
-20:19:08.580,19-10-20,0011877154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:19:23.580,19-10-20,0011878654,USBWrite,Datagram write error: 1!
-20:19:23.580,19-10-20,0011878654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:19:38.580,19-10-20,0011880154,USBWrite,Datagram write error: 1!
-20:19:38.580,19-10-20,0011880154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:19:54.580,19-10-20,0011881654,USBWrite,Datagram write error: 1!
-20:19:54.580,19-10-20,0011881654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:20:09.580,19-10-20,0011883154,USBWrite,Datagram write error: 1!
-20:20:09.580,19-10-20,0011883154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:20:25.580,19-10-20,0011884654,USBWrite,Datagram write error: 1!
-20:20:25.580,19-10-20,0011884654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:20:40.580,19-10-20,0011886154,USBWrite,Datagram write error: 1!
-20:20:40.580,19-10-20,0011886154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:20:55.580,19-10-20,0011887654,USBWrite,Datagram write error: 1!
-20:20:55.580,19-10-20,0011887654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:21:11.580,19-10-20,0011889154,USBWrite,Datagram write error: 1!
-20:21:11.580,19-10-20,0011889154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:21:26.580,19-10-20,0011890654,USBWrite,Datagram write error: 1!
-20:21:26.580,19-10-20,0011890654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:21:42.580,19-10-20,0011892154,USBWrite,Datagram write error: 1!
-20:21:42.580,19-10-20,0011892154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:21:57.580,19-10-20,0011893654,USBWrite,Datagram write error: 1!
-20:21:57.580,19-10-20,0011893654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:22:12.580,19-10-20,0011895154,USBWrite,Datagram write error: 1!
-20:22:12.580,19-10-20,0011895154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:22:28.580,19-10-20,0011896654,USBWrite,Datagram write error: 1!
-20:22:28.580,19-10-20,0011896654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:22:43.580,19-10-20,0011898154,USBWrite,Datagram write error: 1!
-20:22:43.580,19-10-20,0011898154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:22:58.580,19-10-20,0011899654,USBWrite,Datagram write error: 1!
-20:22:58.580,19-10-20,0011899654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:23:14.580,19-10-20,0011901154,USBWrite,Datagram write error: 1!
-20:23:14.580,19-10-20,0011901154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:23:29.580,19-10-20,0011902654,USBWrite,Datagram write error: 1!
-20:23:29.580,19-10-20,0011902654,USBWrite,usbWriteTaskEntry: write failed(0!=77).
-20:23:45.580,19-10-20,0011904154,USBWrite,Datagram write error: 1!
-20:23:45.580,19-10-20,0011904154,USBWrite,usbWriteTaskEntry: write failed(0!=77).
+15:27:22.887,20-02-08,0025322923,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.907,20-02-08,0025322925,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.917,20-02-08,0025322926,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.917,20-02-08,0025322926,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.927,20-02-08,0025322927,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.927,20-02-08,0025322927,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.927,20-02-08,0025322927,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.937,20-02-08,0025322928,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.937,20-02-08,0025322928,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.937,20-02-08,0025322928,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.947,20-02-08,0025322929,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.947,20-02-08,0025322929,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.957,20-02-08,0025322930,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.957,20-02-08,0025322930,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.957,20-02-08,0025322930,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.967,20-02-08,0025322931,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.967,20-02-08,0025322931,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.967,20-02-08,0025322931,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.977,20-02-08,0025322932,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.977,20-02-08,0025322932,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.977,20-02-08,0025322932,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.987,20-02-08,0025322933,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.987,20-02-08,0025322933,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.987,20-02-08,0025322933,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.997,20-02-08,0025322934,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:22.997,20-02-08,0025322934,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.007,20-02-08,0025322935,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.007,20-02-08,0025322935,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.007,20-02-08,0025322935,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.017,20-02-08,0025322936,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.017,20-02-08,0025322936,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.017,20-02-08,0025322936,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.027,20-02-08,0025322937,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.027,20-02-08,0025322937,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.037,20-02-08,0025322938,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.037,20-02-08,0025322938,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.047,20-02-08,0025322939,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.047,20-02-08,0025322939,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.047,20-02-08,0025322939,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.057,20-02-08,0025322940,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.057,20-02-08,0025322940,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.057,20-02-08,0025322940,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.067,20-02-08,0025322941,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.067,20-02-08,0025322941,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.067,20-02-08,0025322941,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.077,20-02-08,0025322942,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.077,20-02-08,0025322942,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.077,20-02-08,0025322942,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.087,20-02-08,0025322943,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.087,20-02-08,0025322943,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.087,20-02-08,0025322943,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.097,20-02-08,0025322944,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.097,20-02-08,0025322944,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.107,20-02-08,0025322945,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.107,20-02-08,0025322945,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.107,20-02-08,0025322945,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+15:27:23.117,20-02-08,0025322946,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.117,20-02-08,0025322946,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.127,20-02-08,0025322947,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+15:27:23.127,20-02-08,0025322947,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.137,20-02-08,0025322948,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.137,20-02-08,0025322948,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.147,20-02-08,0025322949,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+15:27:23.147,20-02-08,0025322949,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.147,20-02-08,0025322949,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.157,20-02-08,0025322950,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+15:27:23.157,20-02-08,0025322950,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.167,20-02-08,0025322951,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.167,20-02-08,0025322951,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.177,20-02-08,0025322952,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:23.177,20-02-08,0025322952,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:24.177,20-02-08,0025322952,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:24.187,20-02-08,0025322953,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:24.187,20-02-08,0025322953,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:24.187,20-02-08,0025322953,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+15:27:24.197,20-02-08,0025322954,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.067,20-02-10,0025373241,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_utils.c:1487,fmErr == FM_SUCCESS
+07:45:33.107,20-02-10,0025373245,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.107,20-02-10,0025373245,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+07:45:33.117,20-02-10,0025373246,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.117,20-02-10,0025373246,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.127,20-02-10,0025373247,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.127,20-02-10,0025373247,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.127,20-02-10,0025373247,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.137,20-02-10,0025373248,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.137,20-02-10,0025373248,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.137,20-02-10,0025373248,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.147,20-02-10,0025373249,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.147,20-02-10,0025373249,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.147,20-02-10,0025373249,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.157,20-02-10,0025373250,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.157,20-02-10,0025373250,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.167,20-02-10,0025373251,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.167,20-02-10,0025373251,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.167,20-02-10,0025373251,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.177,20-02-10,0025373252,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.177,20-02-10,0025373252,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.187,20-02-10,0025373253,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.187,20-02-10,0025373253,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.187,20-02-10,0025373253,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.197,20-02-10,0025373254,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.197,20-02-10,0025373254,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.197,20-02-10,0025373254,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.207,20-02-10,0025373255,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.207,20-02-10,0025373255,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.207,20-02-10,0025373255,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.217,20-02-10,0025373256,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.217,20-02-10,0025373256,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.217,20-02-10,0025373256,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.227,20-02-10,0025373257,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.227,20-02-10,0025373257,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.237,20-02-10,0025373258,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.237,20-02-10,0025373258,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.237,20-02-10,0025373258,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.247,20-02-10,0025373259,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.247,20-02-10,0025373259,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.247,20-02-10,0025373259,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.257,20-02-10,0025373260,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.267,20-02-10,0025373261,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.267,20-02-10,0025373261,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.267,20-02-10,0025373261,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.277,20-02-10,0025373262,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.277,20-02-10,0025373262,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.287,20-02-10,0025373263,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.287,20-02-10,0025373263,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.287,20-02-10,0025373263,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.297,20-02-10,0025373264,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.297,20-02-10,0025373264,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.297,20-02-10,0025373264,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.307,20-02-10,0025373265,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.307,20-02-10,0025373265,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.307,20-02-10,0025373265,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.317,20-02-10,0025373266,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.317,20-02-10,0025373266,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.317,20-02-10,0025373266,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.327,20-02-10,0025373267,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.327,20-02-10,0025373267,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.337,20-02-10,0025373268,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.337,20-02-10,0025373268,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.347,20-02-10,0025373269,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.347,20-02-10,0025373269,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.347,20-02-10,0025373269,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.357,20-02-10,0025373270,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.357,20-02-10,0025373270,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.367,20-02-10,0025373271,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.367,20-02-10,0025373271,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.367,20-02-10,0025373271,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.377,20-02-10,0025373272,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.377,20-02-10,0025373272,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.387,20-02-10,0025373273,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.387,20-02-10,0025373273,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.387,20-02-10,0025373273,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.397,20-02-10,0025373274,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.397,20-02-10,0025373274,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:32.407,20-02-10,0025373275,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.407,20-02-10,0025373275,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.407,20-02-10,0025373275,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.417,20-02-10,0025373276,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.417,20-02-10,0025373276,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.427,20-02-10,0025373277,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.427,20-02-10,0025373277,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.427,20-02-10,0025373277,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.437,20-02-10,0025373278,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.437,20-02-10,0025373278,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.437,20-02-10,0025373278,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.447,20-02-10,0025373279,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.447,20-02-10,0025373279,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.457,20-02-10,0025373280,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.457,20-02-10,0025373280,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.457,20-02-10,0025373280,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.467,20-02-10,0025373281,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.467,20-02-10,0025373281,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.467,20-02-10,0025373281,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.477,20-02-10,0025373282,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.477,20-02-10,0025373282,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.487,20-02-10,0025373283,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.487,20-02-10,0025373283,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.497,20-02-10,0025373284,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.497,20-02-10,0025373284,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.507,20-02-10,0025373285,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.507,20-02-10,0025373285,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.507,20-02-10,0025373285,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.517,20-02-10,0025373286,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.517,20-02-10,0025373286,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.517,20-02-10,0025373286,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.527,20-02-10,0025373287,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.527,20-02-10,0025373287,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.527,20-02-10,0025373287,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.537,20-02-10,0025373288,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.537,20-02-10,0025373288,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.547,20-02-10,0025373289,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.547,20-02-10,0025373289,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.547,20-02-10,0025373289,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.557,20-02-10,0025373290,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.557,20-02-10,0025373290,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.557,20-02-10,0025373290,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.567,20-02-10,0025373291,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.567,20-02-10,0025373291,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.577,20-02-10,0025373292,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.597,20-02-10,0025373294,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.597,20-02-10,0025373294,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.607,20-02-10,0025373295,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.607,20-02-10,0025373295,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.607,20-02-10,0025373295,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.617,20-02-10,0025373296,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.617,20-02-10,0025373296,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.627,20-02-10,0025373297,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.627,20-02-10,0025373297,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.627,20-02-10,0025373297,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.637,20-02-10,0025373298,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.637,20-02-10,0025373298,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.637,20-02-10,0025373298,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.647,20-02-10,0025373299,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.647,20-02-10,0025373299,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.657,20-02-10,0025373300,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.657,20-02-10,0025373300,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.657,20-02-10,0025373300,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.667,20-02-10,0025373301,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.667,20-02-10,0025373301,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.677,20-02-10,0025373302,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.677,20-02-10,0025373302,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.677,20-02-10,0025373302,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.687,20-02-10,0025373303,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.687,20-02-10,0025373303,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.687,20-02-10,0025373303,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.697,20-02-10,0025373304,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.697,20-02-10,0025373304,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.697,20-02-10,0025373304,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.707,20-02-10,0025373305,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.707,20-02-10,0025373305,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.717,20-02-10,0025373306,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.717,20-02-10,0025373306,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.727,20-02-10,0025373307,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.727,20-02-10,0025373307,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.737,20-02-10,0025373308,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.737,20-02-10,0025373308,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.737,20-02-10,0025373308,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.747,20-02-10,0025373309,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.747,20-02-10,0025373309,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.747,20-02-10,0025373309,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.757,20-02-10,0025373310,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.757,20-02-10,0025373310,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.767,20-02-10,0025373311,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.767,20-02-10,0025373311,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.767,20-02-10,0025373311,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.777,20-02-10,0025373312,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.777,20-02-10,0025373312,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.787,20-02-10,0025373313,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.787,20-02-10,0025373313,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.787,20-02-10,0025373313,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.797,20-02-10,0025373314,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.797,20-02-10,0025373314,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.797,20-02-10,0025373314,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.807,20-02-10,0025373315,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.807,20-02-10,0025373315,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.817,20-02-10,0025373316,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.817,20-02-10,0025373316,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.827,20-02-10,0025373317,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.827,20-02-10,0025373317,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.827,20-02-10,0025373317,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.837,20-02-10,0025373318,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.837,20-02-10,0025373318,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.837,20-02-10,0025373318,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.847,20-02-10,0025373319,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.847,20-02-10,0025373319,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.857,20-02-10,0025373320,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.857,20-02-10,0025373320,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.857,20-02-10,0025373320,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.867,20-02-10,0025373321,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.867,20-02-10,0025373321,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.867,20-02-10,0025373321,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.877,20-02-10,0025373322,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.877,20-02-10,0025373322,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.887,20-02-10,0025373323,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.887,20-02-10,0025373323,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.887,20-02-10,0025373323,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.897,20-02-10,0025373324,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.897,20-02-10,0025373324,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.907,20-02-10,0025373325,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.907,20-02-10,0025373325,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.907,20-02-10,0025373325,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+07:45:33.917,20-02-10,0025373326,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.917,20-02-10,0025373326,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.927,20-02-10,0025373327,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+07:45:33.927,20-02-10,0025373327,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.927,20-02-10,0025373327,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.937,20-02-10,0025373328,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.937,20-02-10,0025373328,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+07:45:33.947,20-02-10,0025373329,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.947,20-02-10,0025373329,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.957,20-02-10,0025373330,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+07:45:33.957,20-02-10,0025373330,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.967,20-02-10,0025373331,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.967,20-02-10,0025373331,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.977,20-02-10,0025373332,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.977,20-02-10,0025373332,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.987,20-02-10,0025373333,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.987,20-02-10,0025373333,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.987,20-02-10,0025373333,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.997,20-02-10,0025373334,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.997,20-02-10,0025373334,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.027,20-02-10,0025373337,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.037,20-02-10,0025373338,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:1141,pFormatPackage != NULL
+07:45:34.037,20-02-10,0025373338,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.047,20-02-10,0025373339,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.047,20-02-10,0025373339,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.047,20-02-10,0025373339,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.057,20-02-10,0025373340,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.057,20-02-10,0025373340,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.067,20-02-10,0025373341,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.067,20-02-10,0025373341,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.077,20-02-10,0025373342,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.077,20-02-10,0025373342,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.077,20-02-10,0025373342,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.087,20-02-10,0025373343,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.087,20-02-10,0025373343,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.097,20-02-10,0025373344,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.097,20-02-10,0025373344,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.097,20-02-10,0025373344,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.107,20-02-10,0025373345,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.107,20-02-10,0025373345,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.107,20-02-10,0025373345,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.117,20-02-10,0025373346,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.117,20-02-10,0025373346,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.117,20-02-10,0025373346,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.127,20-02-10,0025373347,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.127,20-02-10,0025373347,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.127,20-02-10,0025373347,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.137,20-02-10,0025373348,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.137,20-02-10,0025373348,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.147,20-02-10,0025373349,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.147,20-02-10,0025373349,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.147,20-02-10,0025373349,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.157,20-02-10,0025373350,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.157,20-02-10,0025373350,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.167,20-02-10,0025373351,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.167,20-02-10,0025373351,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.167,20-02-10,0025373351,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.177,20-02-10,0025373352,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.177,20-02-10,0025373352,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.177,20-02-10,0025373352,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.187,20-02-10,0025373353,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.187,20-02-10,0025373353,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.197,20-02-10,0025373354,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.197,20-02-10,0025373354,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.197,20-02-10,0025373354,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.207,20-02-10,0025373355,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.207,20-02-10,0025373355,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.217,20-02-10,0025373356,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.217,20-02-10,0025373356,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:34.217,20-02-10,0025373356,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.227,20-02-10,0025373357,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
+07:45:33.227,20-02-10,0025373357,     gui,TI_ASSERT >>> ../2deditor/src/d2editor_fm_draw.c:648,ipContext != NULL && ipContext->mpDrawContext != NULL && ipContext->mpFormatPackage != NULL
